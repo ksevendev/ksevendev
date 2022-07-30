@@ -15,7 +15,7 @@
   - ⚡ Fun fact: ...
 -->
 
-👨🏻‍💻 I’m a Web Developer at [K7](#!). 
+👨🏻‍💻 I’m a Web Developer at [K7]([#!](https://github.com/k7brasil/)). 
     I'm Brazilian and I live in Goiana, Pernambuco. 🌴
 
 [![Linkedin: K7](https://img.shields.io/badge/-k7brasil-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/k7brasil/)](https://www.linkedin.com/in/k7brasil/)
