@@ -51,7 +51,7 @@ Here are some of the technologies and tools I work with:
 
 
 ## 🏆 GitHub Achievements
-1º <img src="https://user-images.githubusercontent.com/32661918/182043417-22724bcd-066d-4cf6-849b-7842737dfa82.png" width="90px" height="90px" alt="Achievement: Pull Shark">
-2º <img src="https://user-images.githubusercontent.com/32661918/182043518-7e469f10-d431-4b19-b92c-bb4efc124224.png" width="90px" height="90px" alt="Achievement: YOLO">
-3º <img src="https://user-images.githubusercontent.com/32661918/182043527-01d8aabd-6d10-4d08-9045-e47c840dadf0.png" width="90px" height="90px" alt="Achievement: Quickdraw">
+1º <a href="https://github.com/k7brasil?achievement=pull-shark&tab=achievements" target="_Blank"><img src="https://user-images.githubusercontent.com/32661918/182043417-22724bcd-066d-4cf6-849b-7842737dfa82.png" width="90px" height="90px" alt="Achievement: Pull Shark"></a>
+2º <a href="https://github.com/k7brasil?achievement=yolo&tab=achievements" target="_Blank"><img src="https://user-images.githubusercontent.com/32661918/182043518-7e469f10-d431-4b19-b92c-bb4efc124224.png" width="90px" height="90px" alt="Achievement: YOLO"></a>
+3º <a href="https://github.com/k7brasil?achievement=quickdraw&tab=achievements" target="_Blank"><img src="https://user-images.githubusercontent.com/32661918/182043527-01d8aabd-6d10-4d08-9045-e47c840dadf0.png" width="90px" height="90px" alt="Achievement: Quickdraw"></a>
 
