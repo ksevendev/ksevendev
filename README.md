@@ -24,34 +24,8 @@
 [![Twitter: K7](https://img.shields.io/twitter/follow/k7brasil?style=social)](https://twitter.com/k7brasil)
 [![Youtube: K7](https://img.shields.io/youtube/channel/views/k7brasil?style=social)](http://youtube.com/channel/k7brasil)
 
-## &#x1f4c8; GitHub Stats
-<!--
-<a href="https://github.com/k7brasil/k7brasil">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=k7brasil&hide=java,html,tex&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21&langs_count=3" />
-</a>
-<a href="https://github.com/k7brasil/k7brasil">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=rafaellaurindo&show_icons=true&line_height=27&count_private=true&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" alt="Martin's GitHub Stats" />
-</a>
-
-<a href="https://github.com/k7brasil/laravel-telegram-logging">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=k7brasil&repo=laravel-telegram-logging&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" />
-</a>
-
-<a href="https://github.com/k7brasil/laravel-traducao-pt-br">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=k7brasil&repo=laravel-traducao-pt-br&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" />
-</a>    
-
-<a href="https://github.com/k7brasil/image-classifier-python">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=k7brasil&repo=image-classifier-python&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" />
-</a>
-
-<a href="https://github.com/k7brasil/laravel-brasilapi">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=k7brasil&repo=laravel-brasilapi&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" />
-</a>
---->
 
 ## ⚡ Technologies
-
 Here are some of the technologies and tools I work with:
 
 ![Amazon Web Services](https://img.shields.io/badge/-AWS-FF9000?style=flat-square&logo=amazon&logoColor=white)
@@ -74,3 +48,9 @@ Here are some of the technologies and tools I work with:
 ![TypeScript](https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript)
 ![VSCode](https://img.shields.io/badge/-VSCode-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white)
 ![Vue.js](https://img.shields.io/badge/-Vue.js-42B883?style=flat-square&logo=vue.js&logoColor=white)
+
+
+## 🏆 GitHub Achievements
+![alt text](https://user-images.githubusercontent.com/32661918/182043417-22724bcd-066d-4cf6-849b-7842737dfa82.png "Achievement: Pull Shark")
+![alt text](https://user-images.githubusercontent.com/32661918/182043518-7e469f10-d431-4b19-b92c-bb4efc124224.png "Achievement: YOLO")
+![alt text](https://user-images.githubusercontent.com/32661918/182043527-01d8aabd-6d10-4d08-9045-e47c840dadf0.png "Achievement: Quickdraw")
