@@ -52,14 +52,14 @@ Here are some of the technologies and tools I work with:
 
 ## 🏆 GitHub Achievements
 <div class="d-flex flex-wrap">
-  <a href="?achievement=pull-shark&amp;tab=achievements" class="position-relative">
-    <img src="https://github.githubassets.com/images/modules/profile/achievements/pull-shark-default.png" data-hovercard-type="achievement" data-hovercard-url="/users/k7brasil/achievements/pull-shark/detail?hovercard=1" width="64" alt="Achievement: Pull Shark" data-view-component="true" class="achievement-badge-sidebar">
+  <a href="https://github.com/k7brasil?achievement=pull-shark&amp;tab=achievements" class="position-relative">
+    <img src="https://github.githubassets.com/images/modules/profile/achievements/pull-shark-default.png" data-hovercard-type="achievement" data-hovercard-url="https://github.com/users/k7brasil/achievements/pull-shark/detail?hovercard=1" width="64" alt="Achievement: Pull Shark" data-view-component="true" class="achievement-badge-sidebar">
   </a>
-  <a href="?achievement=yolo&amp;tab=achievements" class="position-relative">
-    <img src="https://github.githubassets.com/images/modules/profile/achievements/yolo-default.png" data-hovercard-type="achievement" data-hovercard-url="/users/k7brasil/achievements/yolo/detail?hovercard=1" width="64" alt="Achievement: YOLO" data-view-component="true" class="achievement-badge-sidebar">
+  <a href="https://github.com/k7brasil?achievement=yolo&amp;tab=achievements" class="position-relative">
+    <img src="https://github.githubassets.com/images/modules/profile/achievements/yolo-default.png" data-hovercard-type="achievement" data-hovercard-url="https://github.com/users/k7brasil/achievements/yolo/detail?hovercard=1" width="64" alt="Achievement: YOLO" data-view-component="true" class="achievement-badge-sidebar">
   </a>
-  <a href="?achievement=quickdraw&amp;tab=achievements" class="position-relative">
-   <img src="https://github.githubassets.com/images/modules/profile/achievements/quickdraw-default--medium-dark.png" data-hovercard-type="achievement" data-hovercard-url="/users/k7brasil/achievements/quickdraw/detail?hovercard=1" width="64" alt="Achievement: Quickdraw" data-view-component="true" class="achievement-badge-sidebar">
+  <a href="https://github.com/k7brasil?achievement=quickdraw&amp;tab=achievements" class="position-relative">
+   <img src="https://github.githubassets.com/images/modules/profile/achievements/quickdraw-default--medium-dark.png" data-hovercard-type="achievement" data-hovercard-url="https://github.com/users/k7brasil/achievements/quickdraw/detail?hovercard=1" width="64" alt="Achievement: Quickdraw" data-view-component="true" class="achievement-badge-sidebar">
   </a>
 </div>
 
