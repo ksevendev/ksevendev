@@ -1,0 +1,971 @@
+[
+        {
+           "name":"All Access pass ( 40% Black Friday Discount )",
+           "price":" $\u03361\u03366\u03360\u0336 - $96",
+           "published":true,
+           "since_version":"3.0.0",
+           "description":"Get all our plugins. Both current and future plugins. You also get 50% off on all mobile apps. NOW ON BLACK FRIDAY DISCOUNT OF 40%\n",
+           "latestVersion":"1.0",
+           "alias":"allaccesspass",
+           "category":[
+
+           ],
+           "paddle":"736767",
+           "install_status":"none",
+           "image":"https://dl.airtable.com/.attachments/544b951c3f75f8802c5ecd8dbe18e702/1973aa06/40DISCOUNT.jpg",
+           "part_of_aap":true,
+           "rulenot":"issd"
+        },
+        {
+           "name":"Single Plugin BlackFriday Code: BF2022",
+           "price":"30%",
+           "published":true,
+           "since_version":"3.0.0",
+           "description":"Get your desired plugin with a 30% discount. On checkout just enter BF2022. Valid only for a few days \n",
+           "latestVersion":"1.0",
+           "alias":"bfdiscount",
+           "category":[
+
+           ],
+           "link":"#",
+           "install_status":"none",
+           "image":"https://dl.airtable.com/.attachments/a239b0fa03963bdb3fcd242067688aa4/52aa6782/plugin_discount.jpeg"
+        },
+        {
+           "name":"POS Cloud 50%- Black Friday Discount. ",
+           "price":"$\u0336\u0336\u03369\u0336\u0336\u03369\u0336\u0336\u0336 - $49",
+           "published":true,
+           "since_version":"3.0.0",
+           "description":"Not part of All-Access Pass. \nBring a full-featured POS system for your vendors. With this plugin, you also get the staff and expenses modules. Now on Black Friday discount of mazing 50%\n",
+           "alias":"poscloud",
+           "category":[
+              "tools"
+           ],
+           "link":"https://codecanyon.net/item/lion-pos-saas-cloud-point-of-sale-script/33733665",
+           "image":"https://dl.airtable.com/.attachments/6153f1a6bbde78bec6eda49a3c31e76a/e447fdb7/50Disc_LionPOS.png",
+           "docs":"https://mobidonia.gitbook.io/poscloud/",
+           "video":"https://www.youtube.com/watch?v=gfR2gIol4EM",
+           "demo":"https://poslion.com/",
+           "rulenot":"issd",
+           "latestVersion":"2.0"
+        },
+        {
+           "name":"Taxi Cocpit",
+           "price":"$149",
+           "published":true,
+           "since_version":"3.2.0",
+           "description":"Manage your rides\n",
+           "latestVersion":"1.3",
+           "alias":"cockpit",
+           "category":[
+              "tools"
+           ],
+           "link":"https://codecanyon.net/item/whatsapp-taxi-saas-taxi-ordering-via-whatsapp/37541019",
+           "install_status":"installed",
+           "image":"https://dl.airtable.com/.attachments/04813ea5493223f103b8a9498383a3e4/c68f2c91/Taxicocpit.jpg",
+           "file":"https://dl.airtable.com/.attachments/b6b5f883cb8e942a471f0eb2d207eefa/616aa753/Cockpit.zip",
+           "rule":"issd"
+        },
+        {
+           "name":"Drive categories",
+           "price":"$0",
+           "published":true,
+           "since_version":"3.2.0",
+           "description":"Organize ride types into categories\n",
+           "latestVersion":"1.0",
+           "alias":"drivercategories",
+           "category":[
+              "tools",
+              "free"
+           ],
+           "install_status":"bought",
+           "image":"https://dl.airtable.com/.attachments/342187ce395e9e07486f3c3897b4d856/9fcdebd4/DriverCategories.jpg",
+           "file":"https://dl.airtable.com/.attachments/1803bcdbb6ac321be76954f81c8748c5/8481ae4a/Drivercategories.zip",
+           "part_of_aap":true,
+           "rule":"issd"
+        },
+        {
+           "name":"Taxi Driver app v3.6.1",
+           "price":"$0",
+           "published":true,
+           "since_version":"3.0.0",
+           "description":"A mobile app where drivers can manage the orders ( iOS + Android )\n",
+           "latestVersion":"3.6.1",
+           "alias":"taxi_driver_app",
+           "category":[
+              "apps"
+           ],
+           "install_status":"bought",
+           "image":"https://dl.airtable.com/.attachments/d214f2883514e8609775fd5db71287be/ef7ec0b7/TaxiDriverApp.jpg",
+           "rule":"issd",
+           "docs":"https://mobidonia.gitbook.io/mobile-apps/",
+           "demo":"https://play.google.com/store/apps/details?id=com.mobidonia.demota",
+           "ppfolder":"https://1drv.ms/u/s!AqVDdjJrM4dRhop38CM9U86Egnm_Pw?e=c9uKpl"
+        },
+        {
+           "name":"Clients - User Login & Register",
+           "price":"$39",
+           "published":true,
+           "since_version":"3.4.0",
+           "description":"Allow users to login and register\n",
+           "latestVersion":"1.0",
+           "alias":"clients",
+           "category":[
+              "tools"
+           ],
+           "paddle":"798907",
+           "install_status":"none",
+           "image":"https://dl.airtable.com/.attachments/d81c2f14849bf050c6ae985412e8b988/8b78a606/Clientslogin.jpg",
+           "part_of_aap":true,
+           "rule":"isqrsaas",
+           "video":"https://www.loom.com/share/99e8572df6624ee8bb59623112a3bd21",
+           "rulenot":"issd"
+        },
+        {
+           "name":"Kitchen Display System",
+           "price":"$49",
+           "published":true,
+           "since_version":"3.3.0",
+           "description":"Let the kitchen staff manage the orders - both web and POS orders.\n",
+           "latestVersion":"1.1",
+           "alias":"kitchendisplay",
+           "category":[
+              "tools"
+           ],
+           "paddle":"783564",
+           "install_status":"none",
+           "image":"https://dl.airtable.com/.attachments/0f540e930db414eabfd5a6912d5f2786/09e949e3/KitchenDisplpaySystem.jpg",
+           "part_of_aap":true,
+           "video":"https://www.loom.com/share/4a8460875c2c4d1aa0227ea94009de91",
+           "rulenot":"issd"
+        },
+        {
+           "name":"Vendor Drivers ( Beta )",
+           "price":"$39",
+           "published":true,
+           "since_version":"3.2.0",
+           "description":"Manage drivers per vendor. \nThis module is in Beta, there can be some problems or integrations issues\n\u00a0\n",
+           "latestVersion":"1.1",
+           "alias":"drivers",
+           "category":[
+              "tools"
+           ],
+           "paddle":"770829",
+           "install_status":"none",
+           "image":"https://dl.airtable.com/.attachments/3c8b6df56cdf7ee85083134f250c5246/6dd9c070/VendorDrivers.jpg",
+           "part_of_aap":true
+        },
+        {
+           "name":"TinyPNG CDN Uploader",
+           "price":"$39",
+           "published":true,
+           "since_version":"3.4.0",
+           "description":"Compress and upload images on CDN.\u00a0\nTinyPNG, AWS S3 or Google Cloud\n\u00a0\n",
+           "latestVersion":"1.0",
+           "alias":"tinypng",
+           "category":[
+              "tools"
+           ],
+           "paddle":"769308",
+           "install_status":"none",
+           "image":"https://dl.airtable.com/.attachments/1a14d5931ccbf9f12cbad98b1f0b36cf/07130dca/TinyPNG.jpg",
+           "part_of_aap":true,
+           "rule":"issssssss",
+           "docs":"https://mobidonia.gitbook.io/plugins/installable-apps/tiny-png",
+           "rulenot":"issd"
+        },
+        {
+           "name":"Manger",
+           "price":"$39",
+           "published":true,
+           "since_version":"3.2.0",
+           "description":"Manage multiple accounts/vendors at once. Be the manager. \n\u00a0\n",
+           "latestVersion":"1.2",
+           "alias":"manager",
+           "category":[
+              "tools"
+           ],
+           "paddle":"769557",
+           "install_status":"none",
+           "image":"https://dl.airtable.com/.attachments/c065e4ab910520abbbe2785211a0d60f/d653879d/Manager.jpg",
+           "part_of_aap":true
+        },
+        {
+           "name":"Ordering date and time",
+           "price":"$29",
+           "published":true,
+           "since_version":"3.0.0",
+           "description":"Allow users to select the time and date of order\n",
+           "latestVersion":"1.0",
+           "alias":"orderdatetime",
+           "category":[
+              "tools"
+           ],
+           "paddle":"772931",
+           "install_status":"none",
+           "image":"https://dl.airtable.com/.attachments/ca55582f46fc5e3f3fc4b7130c7873f0/e007ca00/AfterHours.jpg",
+           "part_of_aap":true,
+           "demo":"https://mobidonia.website/leukapizza",
+           "rulenot":"issd"
+        },
+        {
+           "name":"Detrack",
+           "price":"$19",
+           "published":true,
+           "since_version":"3.1.0",
+           "description":"Manage your delivery orders via DeTrack.com\n",
+           "latestVersion":"1.0",
+           "alias":"detrack",
+           "category":[
+              "tools"
+           ],
+           "paddle":"751740",
+           "install_status":"none",
+           "image":"https://dl.airtable.com/.attachments/78e48b8b8943ab7995f733bd6b9e79ea/8988e5c0/Detrack.jpg",
+           "part_of_aap":true,
+           "rule":"isqrsaas",
+           "long_description":"Manage your delivery orders via DeTrack.com\n",
+           "video":"https://youtu.be/OxyhrtVz3ME?t=266",
+           "rulenot":"issd"
+        },
+        {
+           "name":"Mailchimp",
+           "price":"$0",
+           "published":true,
+           "since_version":"3.0.0",
+           "description":"Subscribe your new clients in mailchimp\n",
+           "latestVersion":"1.0",
+           "alias":"mailchimp",
+           "category":[
+              "tools",
+              "free"
+           ],
+           "install_status":"bought",
+           "image":"https://dl.airtable.com/.attachments/161c577545a3e1dc7e22ac449c410785/a5a82b60/Mailchimp.jpg",
+           "file":"https://dl.airtable.com/.attachments/8e5c6b955feebae686d830dbc02a8b86/b2de648b/Mailchimp.zip",
+           "part_of_aap":true
+        },
+        {
+           "name":"Whatsapp Status",
+           "price":"$0",
+           "published":true,
+           "since_version":"3.1.0",
+           "description":"Send order status to clients via WhatsApp. Inform them about the progress of the order.\n",
+           "latestVersion":"1.1",
+           "alias":"sendstatus",
+           "category":[
+              "tools",
+              "free"
+           ],
+           "install_status":"bought",
+           "image":"https://dl.airtable.com/.attachments/8303e2a71c3795060cbb7d2040d9cccd/5dd91e6a/WhatsappStatus.jpg",
+           "file":"https://dl.airtable.com/.attachments/20d46e6871896d1c498edd9916fbd161/aa8d1250/Sendstatus.zip",
+           "long_description":"Send order status to clients via WhatsApp. Inform them about the progress of the order.\n",
+           "rulenot":"isft"
+        },
+        {
+           "name":"Theme switcher",
+           "price":"$0",
+           "published":true,
+           "since_version":"3.2.0",
+           "description":"Allow vendors to choose the template they want\n",
+           "latestVersion":"1.1",
+           "alias":"themeswitcher",
+           "category":[
+              "tools",
+              "free"
+           ],
+           "install_status":"bought",
+           "image":"https://dl.airtable.com/.attachments/aff6ddb0f9df4929117782a3b0490866/819031c9/ThemeSwitcher.jpg",
+           "file":"https://dl.airtable.com/.attachments/2bb8aa07d607d33e5c719cf36a8147ef/9f05b2de/Themeswitcher.zip",
+           "long_description":"Allow vendors to choose the template they want\n",
+           "rulenot":"issd"
+        },
+        {
+           "name":"Owner menu links",
+           "price":"$0",
+           "published":true,
+           "since_version":"3.2.0",
+           "description":"Display custom links in the side menu of the owner navigation menu\n",
+           "latestVersion":"1.1",
+           "alias":"vendorlinks",
+           "category":[
+              "tools",
+              "free"
+           ],
+           "install_status":"bought",
+           "image":"https://dl.airtable.com/.attachments/74738ebd5d7eba89984ee9dbb92bcefc/c547fb54/MenuLink.jpg",
+           "file":"https://dl.airtable.com/.attachments/0628a91a1731f4f2c97dec6f21f3ac67/43340d2d/Vendorlinks.zip",
+           "long_description":"Display custom links in the side menu of the owner navigation menu\n"
+        },
+        {
+           "name":"OTP Vefification",
+           "price":"$0",
+           "published":true,
+           "since_version":"3.1.0",
+           "description":"OTP verification before placing order\n",
+           "latestVersion":"1.0",
+           "alias":"otp",
+           "category":[
+              "tools",
+              "free"
+           ],
+           "install_status":"bought",
+           "image":"https://dl.airtable.com/.attachments/bc82a669cae2332bdeddb11d2db07647/16ac1d80/OTP.jpg",
+           "file":"https://dl.airtable.com/.attachments/d584dc8c4b07da80fb9a2401a9278d9e/64e07efb/Otp.zip",
+           "rule":"isft",
+           "rulenot":"issd"
+        },
+        {
+           "name":"Custom domain",
+           "price":"$19",
+           "published":true,
+           "since_version":"3.0.0",
+           "description":"Allow your vendors to point their domain to their menu in your project\n",
+           "latestVersion":"1.0",
+           "alias":"domain",
+           "category":[
+              "tools"
+           ],
+           "paddle":"748550",
+           "install_status":"none",
+           "image":"https://dl.airtable.com/.attachments/301e4cc400c6ff2a04189cf471232f32/af5f0cde/baaca0eb0e33dc4f9d45910b8c86623f0144cea0fe0c2093c546d17d535752eb",
+           "part_of_aap":true,
+           "docs":"https://mobidonia.gitbook.io/plugins/installable-apps/custom-domain",
+           "video":"https://www.youtube.com/watch?v=4BD9dUc-6fY",
+           "demo":"https://mobidonia.link/",
+           "rulenot":"issd"
+        },
+        {
+           "name":"Elegant theme",
+           "price":"$29",
+           "published":true,
+           "since_version":"3.0.0",
+           "description":"New design for your menu\n",
+           "latestVersion":"1.6",
+           "alias":"elegant-template",
+           "category":[
+              "themes"
+           ],
+           "paddle":"750684",
+           "install_status":"none",
+           "image":"https://dl.airtable.com/.attachments/4eeebdfde92d1a77ae37c9b5de817d6f/ffcbd9be/baaca0eb0e33dc4f9d45910b8c86623f0144cea0fe0c2093c546d17d535752eb",
+           "part_of_aap":true,
+           "video":"https://youtu.be/tvwLPyzpqP4?t=122",
+           "demo":"https://mobidonia.website/leukapizza",
+           "rulenot":"issd"
+        },
+        {
+           "name":"Allergens",
+           "price":"$39",
+           "published":true,
+           "since_version":"3.0.0",
+           "description":"Display allergens on each menu item.\n",
+           "latestVersion":"1.1",
+           "alias":"allergens",
+           "category":[
+              "tools"
+           ],
+           "paddle":"747990",
+           "install_status":"none",
+           "image":"https://dl.airtable.com/.attachments/459c5ba882535b39804f41cafbd66d19/f6fd5a17/baaca0eb0e33dc4f9d45910b8c86623f0144cea0fe0c2093c546d17d535752eb",
+           "part_of_aap":true,
+           "video":"https://youtu.be/tvwLPyzpqP4?t=327",
+           "rulenot":"issd"
+        },
+        {
+           "name":"Delivery Plugin",
+           "price":"$39",
+           "published":true,
+           "since_version":"3.0.0",
+           "description":"Give your vendors the option to do deliveries\n",
+           "latestVersion":"1.0",
+           "alias":"deliveryqr",
+           "category":[
+              "tools"
+           ],
+           "paddle":"750685",
+           "install_status":"none",
+           "image":"https://dl.airtable.com/.attachments/92500fe22549f0881fba78679746c84d/28ff109a/baaca0eb0e33dc4f9d45910b8c86623f0144cea0fe0c2093c546d17d535752eb",
+           "part_of_aap":true,
+           "rule":"isqrexact",
+           "rulenot":"issd"
+        },
+        {
+           "name":"Discout Coupons",
+           "price":"$49",
+           "published":true,
+           "since_version":"3.0.0",
+           "description":"Now, vendors can give discounts codes to their clients\n",
+           "latestVersion":"1.0",
+           "alias":"coupons",
+           "category":[
+              "tools"
+           ],
+           "paddle":"750686",
+           "install_status":"none",
+           "image":"https://dl.airtable.com/.attachments/4278bfa99c07f1986d7ddb298ddad4ac/0ad895db/baaca0eb0e33dc4f9d45910b8c86623f0144cea0fe0c2093c546d17d535752eb",
+           "part_of_aap":true,
+           "video":"https://youtu.be/tvwLPyzpqP4?t=426",
+           "rulenot":"issd"
+        },
+        {
+           "name":"Feature vendors",
+           "price":"$0",
+           "published":true,
+           "since_version":"3.0.0",
+           "description":"Display list of vendors in the landing page in QR menu maker and WhatsApp Food\n",
+           "latestVersion":"1.0",
+           "alias":"feautureclients",
+           "category":[
+              "tools",
+              "free"
+           ],
+           "install_status":"bought",
+           "image":"https://dl.airtable.com/.attachments/b7c2c9be7d75b5690fd3efdb5ada41be/fc0dc61b/baaca0eb0e33dc4f9d45910b8c86623f0144cea0fe0c2093c546d17d535752eb",
+           "file":"https://dl.airtable.com/.attachments/f6d2f093b1cc9a91f8ac915eb38f8a1b/3fad64fc/Feautureclients.zip",
+           "part_of_aap":true,
+           "rule":"isqrsaas",
+           "rulenot":"issd"
+        },
+        {
+           "name":"Order prepare time",
+           "price":"$0",
+           "published":true,
+           "since_version":"3.0.0",
+           "description":"Set order prepare time\n",
+           "latestVersion":"1.0",
+           "alias":"timprepare",
+           "category":[
+              "tools",
+              "free"
+           ],
+           "install_status":"bought",
+           "image":"https://dl.airtable.com/.attachments/5ddca7fb68775c1d7ca4d34b7e59660f/6fb0ec26/baaca0eb0e33dc4f9d45910b8c86623f0144cea0fe0c2093c546d17d535752eb",
+           "file":"https://dl.airtable.com/.attachments/f76be1e8eb5440e5da0059e57e49bad1/ed8c65fb/Timprepare.zip",
+           "part_of_aap":true,
+           "rulenot":"issd"
+        },
+        {
+           "name":"Default tax per vendor",
+           "price":"$0",
+           "published":true,
+           "since_version":"3.0.0",
+           "description":"Set default tax, and option to hide the tax input\n",
+           "latestVersion":"1.0",
+           "alias":"defaulttax",
+           "category":[
+              "tools",
+              "free"
+           ],
+           "install_status":"bought",
+           "image":"https://dl.airtable.com/.attachments/8b129e14d683d323414858b39a8e4daf/e1edfcf5/baaca0eb0e33dc4f9d45910b8c86623f0144cea0fe0c2093c546d17d535752eb",
+           "file":"https://dl.airtable.com/.attachments/8407e4f894fa82019e632138632e22ea/6765f106/Defaulttax.zip",
+           "part_of_aap":true,
+           "rulenot":"issd"
+        },
+        {
+           "name":"Translations",
+           "price":"$0",
+           "published":true,
+           "since_version":"3.0.0",
+           "description":"Public localization. You can download the languages you need, or contribute in the ones you can. \n",
+           "latestVersion":"1.0",
+           "alias":"translations",
+           "category":[
+              "community",
+              "free"
+           ],
+           "install_status":"bought",
+           "image":"https://dl.airtable.com/.attachments/fc99bca8f967863d056390300e86ecee/d7c80964/translations.jpg",
+           "docs":"https://github.com/mobidonia/ccprojtranslate"
+        },
+        {
+           "name":"Client app v3.6.0",
+           "price":"$79",
+           "published":true,
+           "since_version":"3.0.0",
+           "description":"Give your drivers mobile app where they can manage the orders ( iOS + Android )\n",
+           "latestVersion":"3.6.0",
+           "alias":"client_app",
+           "category":[
+              "apps"
+           ],
+           "paddle":"739411",
+           "install_status":"none",
+           "image":"https://dl.airtable.com/.attachments/f0067983e359ee2fb48c559a3914d927/ba7cb4a7/baaca0eb0e33dc4f9d45910b8c86623f0144cea0fe0c2093c546d17d535752eb",
+           "rule":"isft",
+           "docs":"https://mobidonia.gitbook.io/mobile-apps/",
+           "video":"https://www.loom.com/share/296835747f7d43898a1c32e2d488e913",
+           "demo":"https://play.google.com/store/apps/details?id=com.mobidonia.foodtiger_demo",
+           "rulenot":"issd",
+           "ppfolder":"https://1drv.ms/u/s!AqVDdjJrM4dRhopzGouQv82wsTlhfA?e=vUgbAl"
+        },
+        {
+           "name":"Driver app v3.6.0",
+           "price":"$69",
+           "published":true,
+           "since_version":"3.0.0",
+           "description":"Give your drivers mobile app where they can manage the orders ( iOS + Android )\n",
+           "latestVersion":"3.6.0",
+           "alias":"driver_app",
+           "category":[
+              "apps"
+           ],
+           "paddle":"750703",
+           "install_status":"none",
+           "image":"https://dl.airtable.com/.attachments/f7b0e35502b8b88cc3c4cb5b879ec8b2/96cd3067/baaca0eb0e33dc4f9d45910b8c86623f0144cea0fe0c2093c546d17d535752eb",
+           "rule":"isft",
+           "docs":"https://mobidonia.gitbook.io/mobile-apps/",
+           "demo":"https://play.google.com/store/apps/details?id=driver.app.mobidonia",
+           "rulenot":"issd",
+           "ppfolder":"https://1drv.ms/u/s!AqVDdjJrM4dRhop1Sq-01y9bwMPMAg?e=VaxD8Y"
+        },
+        {
+           "name":"Vendor App v3.6.0",
+           "price":"$69",
+           "published":true,
+           "since_version":"3.0.0",
+           "description":"Give your vendors mobile app where they can manage the orders ( iOS + Android )\n",
+           "latestVersion":"3.6.0",
+           "alias":"vendor_app",
+           "category":[
+              "apps"
+           ],
+           "paddle":"750702",
+           "install_status":"none",
+           "image":"https://dl.airtable.com/.attachments/95b796ed820b111c91d1466f445aee4d/224f02e2/baaca0eb0e33dc4f9d45910b8c86623f0144cea0fe0c2093c546d17d535752eb",
+           "docs":"https://mobidonia.gitbook.io/mobile-apps/",
+           "demo":"https://play.google.com/store/apps/details?id=vendor.app.mobidonia",
+           "rulenot":"issd",
+           "ppfolder":"https://1drv.ms/u/s!AqVDdjJrM4dRhop0fAoXa4jv2cMAZw?e=wF1DXN"
+        },
+        {
+           "name":"PrintTempl.com - Automated printing ( beta )",
+           "price":"$0",
+           "published":true,
+           "since_version":"3.0.0",
+           "description":"This module will allow you, vendors, to print the order receipts directly on a thermal printer or standard a4 printer.\nThis module uses PrintTempl.com for printing on hundreds of printers worry-free, scalable and reliable.\n",
+           "latestVersion":"1.0",
+           "alias":"print-templ",
+           "category":[
+              "tools"
+           ],
+           "install_status":"bought",
+           "image":"https://dl.airtable.com/.attachments/7fbd8f14456d6117b642ffa0204ee4f5/4181e910/ThermalPrinterPrintTempl.jpg",
+           "file":"https://dl.airtable.com/.attachments/e767a63887b9aeab109db5cea16a21e0/5bf3cf19/PrintTempl.zip",
+           "part_of_aap":true,
+           "rulenot":"issd"
+        },
+        {
+           "name":"PrintNode.com - Automated printing",
+           "price":"$49",
+           "published":true,
+           "since_version":"3.0.0",
+           "description":"This module will allow you, vendors, to print the order receipts directly on a thermal printer or standard a4 printer.\nThis module uses PrintNode.com for printing on hundreds of printers worry-free, scalable and reliable.\n",
+           "latestVersion":"1.6",
+           "alias":"print-node",
+           "category":[
+              "tools"
+           ],
+           "paddle":"747610",
+           "install_status":"none",
+           "image":"https://dl.airtable.com/.attachments/78838e3ed5824c780bb1202d907c8e82/26582fed/baaca0eb0e33dc4f9d45910b8c86623f0144cea0fe0c2093c546d17d535752eb",
+           "part_of_aap":true,
+           "video":"https://www.youtube.com/watch?v=GIq8W5tbx6M",
+           "rulenot":"issd"
+        },
+        {
+           "name":"WebHooks",
+           "price":"$49",
+           "published":true,
+           "since_version":"3.0.0",
+           "description":"This module will allow you and your vendors, to receive the order data on WebHook. It will greatly extend the use of your system\n",
+           "latestVersion":"1.4",
+           "alias":"webhooks",
+           "category":[
+              "tools"
+           ],
+           "paddle":"750691",
+           "install_status":"none",
+           "image":"https://dl.airtable.com/.attachments/997000aa7f14233703ea242592a9142d/a224217d/baaca0eb0e33dc4f9d45910b8c86623f0144cea0fe0c2093c546d17d535752eb",
+           "part_of_aap":true,
+           "video":"https://www.youtube.com/watch?v=5bl9TZP2GBY"
+        },
+        {
+           "name":"Expenses",
+           "price":"$49",
+           "published":true,
+           "since_version":"3.0.0",
+           "description":"Track your expenses grouped by vendors and categories.\n",
+           "latestVersion":"1.4",
+           "alias":"expenses",
+           "category":[
+              "tools"
+           ],
+           "paddle":"750692",
+           "install_status":"none",
+           "image":"https://dl.airtable.com/.attachments/1198107c316086776c016a812839e5ea/0c676db4/baaca0eb0e33dc4f9d45910b8c86623f0144cea0fe0c2093c546d17d535752eb",
+           "part_of_aap":true
+        },
+        {
+           "name":"Cloner",
+           "price":"$39",
+           "published":true,
+           "since_version":"3.0.0",
+           "description":"Easily clone/duplicate the vendor together with the setting and the full menu. Useful for multi-branch / similar vendors.\nAbility to clone item by item in the menu\n",
+           "latestVersion":"1.2",
+           "alias":"cloner",
+           "category":[
+              "tools"
+           ],
+           "paddle":"750693",
+           "install_status":"none",
+           "image":"https://dl.airtable.com/.attachments/ceff716879d3f494f827d0e3f576eb77/437b4a5d/baaca0eb0e33dc4f9d45910b8c86623f0144cea0fe0c2093c546d17d535752eb",
+           "part_of_aap":true,
+           "rulenot":"issd"
+        },
+        {
+           "name":"Stripe Link Payments",
+           "price":"$0",
+           "published":true,
+           "since_version":"3.0.0",
+           "description":"This module will enable Stripe Payments in WhatsApp and Stripe Payments in the client mobile app of FoodTiger.\n",
+           "latestVersion":"1.2",
+           "alias":"stripelinks",
+           "category":[
+              "payments",
+              "free"
+           ],
+           "install_status":"bought",
+           "image":"https://dl.airtable.com/.attachments/4f8c8190cdfc3c660aaa0e5b8656dd10/46aadeb8/baaca0eb0e33dc4f9d45910b8c86623f0144cea0fe0c2093c546d17d535752eb",
+           "file":"https://dl.airtable.com/.attachments/d3002918035efaf06e9fb9af97aeb471/23730ae7/Stripelinks.zip",
+           "part_of_aap":true
+        },
+        {
+           "name":"FlutterWave Payments",
+           "price":"$0",
+           "published":true,
+           "since_version":"3.0.0",
+           "description":"Accept payments for orders via FlutterWave\n",
+           "latestVersion":"1.0",
+           "alias":"flutterwave",
+           "category":[
+              "payments",
+              "free"
+           ],
+           "install_status":"bought",
+           "image":"https://dl.airtable.com/.attachments/a01d890b234f60b6a48c12bd75867407/04f77a9a/baaca0eb0e33dc4f9d45910b8c86623f0144cea0fe0c2093c546d17d535752eb",
+           "file":"https://dl.airtable.com/.attachments/1839a9a42b7c108c33858c046cb0feda/83a4ebb8/Flutterwave.zip",
+           "part_of_aap":true
+        },
+        {
+           "name":"Staff",
+           "price":"$39",
+           "published":true,
+           "since_version":"3.0.0",
+           "description":"Add \u201cstaff\u201d so they can manage the orders.\n",
+           "latestVersion":"1.2",
+           "alias":"staff",
+           "category":[
+              "tools"
+           ],
+           "paddle":"750694",
+           "install_status":"none",
+           "image":"https://dl.airtable.com/.attachments/8f2a79d70f377b5dc5452f39cd9c9a54/4d4b3788/baaca0eb0e33dc4f9d45910b8c86623f0144cea0fe0c2093c546d17d535752eb",
+           "part_of_aap":true,
+           "rulenot":"issd"
+        },
+        {
+           "name":"Google Translate Plugin",
+           "price":"$29",
+           "published":true,
+           "since_version":"3.0.0",
+           "description":"Translate your restaurant menus into multiple languages.\nYou can select what languages you want to display\n",
+           "latestVersion":"1.0",
+           "alias":"googletranslate",
+           "category":[
+              "tools"
+           ],
+           "paddle":"674273",
+           "install_status":"none",
+           "image":"https://dl.airtable.com/.attachments/998a1ddd7a697f69e588c3bddea18aba/851abd1a/baaca0eb0e33dc4f9d45910b8c86623f0144cea0fe0c2093c546d17d535752eb",
+           "part_of_aap":true,
+           "rulenot":"issd"
+        },
+        {
+           "name":"PayFast Payments",
+           "price":"$0",
+           "published":true,
+           "since_version":"3.0.0",
+           "description":"Accept payments for orders via PayFast\n",
+           "latestVersion":"1.1",
+           "alias":"payfast",
+           "category":[
+              "payments",
+              "free"
+           ],
+           "install_status":"bought",
+           "image":"https://dl.airtable.com/.attachments/566a08b4ed54064d3e08ce497128c696/cf952702/baaca0eb0e33dc4f9d45910b8c86623f0144cea0fe0c2093c546d17d535752eb",
+           "file":"https://dl.airtable.com/.attachments/166d1373732d012acb5abecb4e484104/63b2fcc7/Payfast.zip",
+           "part_of_aap":true
+        },
+        {
+           "name":"Paystack Payments",
+           "price":"$0",
+           "published":true,
+           "since_version":"3.0.0",
+           "description":"Accept payments for orders via Paystack\n",
+           "latestVersion":"2.2",
+           "alias":"paystack",
+           "category":[
+              "payments",
+              "free"
+           ],
+           "install_status":"bought",
+           "image":"https://dl.airtable.com/.attachments/49e935bf766658a6717c7be0942e8592/5d477f8d/baaca0eb0e33dc4f9d45910b8c86623f0144cea0fe0c2093c546d17d535752eb",
+           "file":"https://dl.airtable.com/.attachments/cb2b9c1d869abb76e418d92e0e2a3bfa/e5b9c092/Paystack.zip",
+           "part_of_aap":true
+        },
+        {
+           "name":"Mercadopago Payments",
+           "price":"$0",
+           "published":true,
+           "since_version":"3.0.0",
+           "description":"Accept payments for orders via Mercadopago\n",
+           "latestVersion":"1.2",
+           "alias":"mercadopago",
+           "category":[
+              "payments",
+              "free"
+           ],
+           "install_status":"bought",
+           "image":"https://dl.airtable.com/.attachments/279c39d68b80b09c5cc4fd04cf9f43c1/955d9436/baaca0eb0e33dc4f9d45910b8c86623f0144cea0fe0c2093c546d17d535752eb",
+           "file":"https://dl.airtable.com/.attachments/f20b9dc90e40c983f0d7cb8d827dea84/d88c648a/Mercadopago.zip",
+           "part_of_aap":true
+        },
+        {
+           "name":"Razorpay Payments",
+           "price":"$0",
+           "published":true,
+           "since_version":"3.0.0",
+           "description":"Accept payments for orders via Razorpay\t\n",
+           "latestVersion":"1.2",
+           "alias":"razorpay",
+           "category":[
+              "payments",
+              "free"
+           ],
+           "install_status":"bought",
+           "image":"https://dl.airtable.com/.attachments/022da407e8a6b275939e87c309f78d79/cf4abbd2/baaca0eb0e33dc4f9d45910b8c86623f0144cea0fe0c2093c546d17d535752eb",
+           "file":"https://dl.airtable.com/.attachments/c14442d13424bb2ae60af6af887503de/fe579f05/Razorpay.zip",
+           "part_of_aap":true
+        },
+        {
+           "name":"Mollie Payments",
+           "price":"$0",
+           "published":true,
+           "since_version":"3.0.0",
+           "description":"Accept payments for orders via Mollie\n",
+           "latestVersion":"1.0",
+           "alias":"mollie",
+           "category":[
+              "payments",
+              "free"
+           ],
+           "install_status":"bought",
+           "image":"https://dl.airtable.com/.attachments/54fee13d793c47d7574f9119b63eeb85/ce403a55/baaca0eb0e33dc4f9d45910b8c86623f0144cea0fe0c2093c546d17d535752eb",
+           "file":"https://dl.airtable.com/.attachments/e4d9a201668c0eb1bbf3d3260781b09a/18ffd1d8/Mollie.zip",
+           "part_of_aap":true
+        },
+        {
+           "name":"Paddle Subscriptions",
+           "price":"$39",
+           "published":true,
+           "since_version":"3.0.0",
+           "description":"Accept subscriptions for plans via Paddle\n",
+           "latestVersion":"1.2",
+           "alias":"paddle-subscribe",
+           "category":[
+              "subscriptions"
+           ],
+           "paddle":"750695",
+           "install_status":"none",
+           "image":"https://dl.airtable.com/.attachments/08699598da168f7bc791cbdb83a64003/658c7da4/baaca0eb0e33dc4f9d45910b8c86623f0144cea0fe0c2093c546d17d535752eb",
+           "part_of_aap":true
+        },
+        {
+           "name":"PayPal Subscriptions",
+           "price":"$39",
+           "published":true,
+           "since_version":"3.0.0",
+           "description":"Accept subscriptions for plans via PayPal\n",
+           "latestVersion":"2.1",
+           "alias":"paypal-subscribe",
+           "category":[
+              "subscriptions"
+           ],
+           "paddle":"750696",
+           "install_status":"none",
+           "image":"https://dl.airtable.com/.attachments/d4d1e95831e876f14cf1739979f18a8b/f7b16f2c/baaca0eb0e33dc4f9d45910b8c86623f0144cea0fe0c2093c546d17d535752eb",
+           "part_of_aap":true
+        },
+        {
+           "name":"PayPal Payments",
+           "price":"$0",
+           "published":true,
+           "since_version":"3.0.0",
+           "description":"Accept payments for orders via PayPal\n",
+           "latestVersion":"1.1",
+           "alias":"paypal",
+           "category":[
+              "payments",
+              "free"
+           ],
+           "install_status":"bought",
+           "image":"https://dl.airtable.com/.attachments/fdd4b2bed337a548ca7f737d2b01a41b/3a2a1e17/baaca0eb0e33dc4f9d45910b8c86623f0144cea0fe0c2093c546d17d535752eb",
+           "file":"https://dl.airtable.com/.attachments/d1d38960a062c53b2f64ef4cc77cf071/b2ab3a33/Paypal.zip",
+           "part_of_aap":true
+        },
+        {
+           "name":"Custom Timezone",
+           "price":"$29",
+           "published":0,
+           "since_version":"4.0.0",
+           "description":"Give your vendors the option to set their own timezone\n",
+           "latestVersion":"1.0",
+           "alias":"timezone",
+           "category":[
+              "tools"
+           ],
+           "paddle":"750698",
+           "install_status":"none",
+           "image":"https://dl.airtable.com/.attachments/eb5da372d6a87f0e1f00d183d15610b5/85ff2c8a/baaca0eb0e33dc4f9d45910b8c86623f0144cea0fe0c2093c546d17d535752eb",
+           "part_of_aap":true
+        },
+        {
+           "name":"Impressum",
+           "price":"$0",
+           "published":true,
+           "since_version":"3.0.0",
+           "description":"Add Impressum at the bottom of the menu.\n",
+           "latestVersion":"1.0",
+           "alias":"impressum",
+           "category":[
+              "tools",
+              "free"
+           ],
+           "install_status":"bought",
+           "image":"https://dl.airtable.com/.attachments/c33a071f8211993a8bc89282815d2037/a17cda8f/baaca0eb0e33dc4f9d45910b8c86623f0144cea0fe0c2093c546d17d535752eb",
+           "file":"https://dl.airtable.com/.attachments/29f841d08b914cedf333e1923fb4e0da/1723bb48/Impressum.zip",
+           "part_of_aap":true,
+           "rulenot":"issd"
+        },
+        {
+           "name":"PDF Invoice",
+           "price":"$39",
+           "published":true,
+           "since_version":"3.0.0",
+           "description":"Print orders bills on printer or export in PDF\n",
+           "latestVersion":"2.0",
+           "alias":"pdf-invoice",
+           "category":[
+              "tools"
+           ],
+           "paddle":"749074",
+           "install_status":"none",
+           "image":"https://dl.airtable.com/.attachments/d5dff20ec85afa426bdbeb727668e6c6/879bbd91/baaca0eb0e33dc4f9d45910b8c86623f0144cea0fe0c2093c546d17d535752eb",
+           "part_of_aap":true
+        },
+        {
+           "name":"Fields",
+           "price":"119",
+           "published":true,
+           "since_version":"3.0.0",
+           "description":"Manage your fields\n",
+           "latestVersion":"1.1",
+           "alias":"fields",
+           "category":[
+              "tools"
+           ],
+           "link":"https://codecanyon.net/item/agris-saas-platform-script-for-agriculture/35942160",
+           "image":"https://dl.airtable.com/.attachments/e54d68f70490bdeb660302a5124dce53/04597700/Fields.jpg",
+           "rule":"isag",
+           "docs":"https://mobidonia.gitbook.io/agris/",
+           "video":"https://www.youtube.com/watch?v=Bu2WSVOMSH8",
+           "demo":"https://agris.cloud/"
+        },
+        {
+           "name":"Floor plan",
+           "price":"$99",
+           "published":true,
+           "since_version":"3.0.0",
+           "description":"Manage your areas\n",
+           "latestVersion":"1.1",
+           "alias":"floorplan",
+           "category":[
+              "tools"
+           ],
+           "link":"https://codecanyon.net/item/lion-pos-saas-cloud-point-of-sale-script/33733665",
+           "install_status":"none",
+           "image":"https://dl.airtable.com/.attachments/4c8eaf95af181117e53c93635dc69635/ce08e671/FloorPlan.jpg",
+           "part_of_aap":true,
+           "long_description":"Manage your areas\n",
+           "video":"https://www.youtube.com/watch?v=gfR2gIol4EM",
+           "demo":"https://codecanyon.net/item/lion-pos-saas-cloud-point-of-sale-script/33733665",
+           "rulenot":"isag,issd"
+        },
+        {
+           "name":"Luxe theme",
+           "price":"$39",
+           "published":true,
+           "since_version":"3.0.0",
+           "description":"Not part of AllAccessPass. This is a community project done by a third-party provider.\n",
+           "latestVersion":"1.2",
+           "alias":"luxe-template",
+           "category":[
+              "themes",
+              "community"
+           ],
+           "link":"https://luxe.airalda.com/",
+           "install_status":"none",
+           "image":"https://dl.airtable.com/.attachments/8dd9c9fa39eef7b7f0f00ea5c1ee9b30/8028524e/Aleks-LuxeTheme.jpg",
+           "demo":"http://luxe.airalda.com/",
+           "rulenot":"issd"
+        },
+        {
+           "name":"Luxe checkout",
+           "price":"$39",
+           "published":true,
+           "since_version":"3.0.0",
+           "description":"Not part of AllAccessPass. This is a community project done by a third-party provider.\n",
+           "latestVersion":"1.0",
+           "alias":"luxe-checkout",
+           "category":[
+              "tools",
+              "community"
+           ],
+           "link":"https://luxe.airalda.com/checkout.html",
+           "install_status":"none",
+           "image":"https://dl.airtable.com/.attachments/41c6eff1e63f6dd029117de4362eb8c8/c9175479/Aleks-LuxeThemeCopy.jpg",
+           "demo":"https://aleksiralda.github.io/luxe-theme/checkout.html",
+           "rulenot":"issd"
+        },
+        {
+           "name":"PayStack Subscriptions",
+           "price":"$39",
+           "published":true,
+           "since_version":"3.0.0",
+           "description":"Accept subscriptions for plans via Paystack\n",
+           "latestVersion":"1.0",
+           "alias":"paystack-subscribe",
+           "category":[
+              "subscriptions"
+           ],
+           "paddle":"784698",
+           "install_status":"none",
+           "image":"https://dl.airtable.com/.attachments/74329a403a21815815ce4558d93efdbc/56054ab0/PayStackSubscribe.jpg",
+           "part_of_aap":true,
+           "video":"https://www.loom.com/share/fec94b743471455f8ad7ff4e0ad275a8"
+        }
+     ]
