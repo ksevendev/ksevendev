@@ -137,11 +137,9 @@
     },
     "thousands": ".",
     "datetime": {
-        "previous": "Anterior",
-        "next": "Próximo",
-        "hours": "Hora",
-        "minutes": "Minuto",
-        "seconds": "Segundo",
+        "hours": "Horas",
+        "minutes": "Minutos",
+        "seconds": "Segundos",
         "amPm": [
             "am",
             "pm"
@@ -234,5 +232,4 @@
     },
     "infoEmpty": "Mostrando 0 até 0 de 0 registro(s)",
     "processing": "Carregando...",
-    "searchPlaceholder": "Buscar registros"
 } 
