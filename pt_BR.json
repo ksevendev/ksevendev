@@ -5,13 +5,6 @@
     "infoThousands": ".",
     "loadingRecords": "Carregando...",
     "zeroRecords": "Nenhum registro encontrado",
-    "search": "Pesquisar",
-    "paginate": {
-        "next": "Próximo",
-        "previous": "Anterior",
-        "first": "Primeiro",
-        "last": "Último"
-    },
     "aria": {
         "sortAscending": ": Ordenar colunas de forma ascendente",
         "sortDescending": ": Ordenar colunas de forma descendente"
