@@ -154,7 +154,7 @@
                     "qrcode" => $qrcode["imagemQrcode"],
                     "code" => $pix["pixCopiaECola"],
                 ];
-                $Render = $this->Theme('invoices\\modals\\pix', $Data, $this->Module);
+                $Render = $this->Component('invoices\\modals\\pix', $Data, $this->Module);
                 $Result = [
                     'data' => $Render,
                     'message' => "Dados renderizado com sucesso!",
@@ -170,7 +170,7 @@
                     "qrcode" => false,
                     "code" => $pix["pixCopiaECola"],
                 ];
-                $Render = $this->Theme('invoices\\modals\\pix', $Data, $this->Module);
+                $Render = $this->Component('invoices\\modals\\pix', $Data, $this->Module);
                 $Result = [
                     'data' => $Render,
                     'message' => "Dados renderizado com sucesso!",
