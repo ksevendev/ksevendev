@@ -2,7 +2,7 @@ Olá pessoal! 👋
 
 👨🏻‍💻 Eu sou um desenvolvedor web na [K'Seven](https://github.com/ksevendev/).
 
-    Eu sou brasileiro e moro em Goiana, Pernambuco.🌴
+    Desev. Full Stack🌴
 
 [![Instagram: K7](https://img.shields.io/badge/-@k7brasil-purple?style=flat-square&logo=instagram&logoColor=white&link=https://instagram.com/k7brasil/)](https://instagram.com/kseven.dev)
 
