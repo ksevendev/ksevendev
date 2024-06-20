@@ -4,7 +4,7 @@ Olá pessoal! 👋
 
     Desev. Full Stack🌴
 
-[![Instagram: K'Seven Developer In Brazil](https://img.shields.io/badge/-@k7brasil-purple?style=flat-square&logo=instagram&logoColor=white&link=https://instagram.com/ksevendev/)](https://instagram.com/ksevendev)
+[![Instagram: K'Seven Developer In Brazil](https://img.shields.io/badge/-@ksevendev-red?style=flat-square&logo=instagram&logoColor=white&link=https://instagram.com/ksevendev/)](https://instagram.com/ksevendev)
 
 
 ## ⚡ Tecnologias
