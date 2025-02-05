@@ -2,7 +2,7 @@
     {
       "domain": "demo.rifeioficial.com.br",
       "key": "abcd1234efgh5678",
-      "status": "active",
+      "status": "inactive",
       "expiration": "2050-12-31",
       "created_at": "2025-02-05"
     },
