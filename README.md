@@ -1,4 +1,4 @@
-![Profile Views](https://komarev.com/ghpvc/?username=ksevendev&label=Profile%20views&color=b40e0e&style=flat)
+![Profile Views](https://komarev.com/ghpvc/?username=ksevendev&label=Visualizações&color=b40e0e&style=for-the-badge&base=176245)
 <br />
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=ksevendev&theme=dark)
 
