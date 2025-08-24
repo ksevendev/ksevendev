@@ -1,12 +1,6 @@
-# Olá 👋, Eu sou Ewerson S.
-### Desenvolvedor Full Stack (Web)
-
 ![Profile Views](https://komarev.com/ghpvc/?username=ksevendev&label=Profile%20views&color=b40e0e&style=flat)
-
----
-
-## 🔭 Atualmente estou trabalhando em:
-**c**
+<br />
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=ksevendev&theme=dark)
 
 ---
 
@@ -27,12 +21,7 @@
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
-
----
-
-## 📊 Estatísticas do GitHub
-
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=ksevendev&theme=dark)
++
 
 ---
 
@@ -44,6 +33,6 @@
 
 ## 🏆 Conquistas do GitHub
 
-[![Pull Shark](https://github.githubassets.com/images/modules/profile/achievements/pull-shark-default.png)](https://github.com/k7brasil?achievement=pull-shark)
-[![YOLO](https://github.githubassets.com/images/modules/profile/achievements/yolo-default.png)](https://github.com/k7brasil?achievement=yolo)
-[![Quickdraw](https://github.githubassets.com/images/modules/profile/achievements/quickdraw-default--medium-dark.png)](https://github.com/k7brasil?achievement=quickdraw)
+<a href="https://github.com/k7brasil?achievement=pull-shark"><img src="https://github.githubassets.com/images/modules/profile/achievements/pull-shark-default.png" width="64" /></a>
+<a href="https://github.com/k7brasil?achievement=yolo"><img src="https://github.githubassets.com/images/modules/profile/achievements/yolo-default.png" width="64" /></a>
+<a href="https://github.com/k7brasil?achievement=quickdraw"><img src="https://github.githubassets.com/images/modules/profile/achievements/quickdraw-default--medium-dark.png" width="64" /></a>
