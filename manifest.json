@@ -1,0 +1,21 @@
+{
+  "name": "Ewerson Silva | CV",
+  "short_name": "Ewerson CV",
+  "description": "Portfólio e Currículo de Ewerson Silva - KSeven",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#b40e0e",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "favicon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
