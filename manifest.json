@@ -13,13 +13,26 @@
       "src": "favicon.jpg",
       "sizes": "192x192",
       "type": "image/jpg",
-      "purpose": "any maskable"
+      "purpose": "any"
     },
     {
       "src": "favicon.jpg",
       "sizes": "512x512",
       "type": "image/jpg",
-      "purpose": "any maskable"
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "screenshot-wide.jpg",
+      "sizes": "1280x720",
+      "type": "image/jpg",
+      "form_factor": "wide"
+    },
+    {
+      "src": "screenshot-mobile.jpg",
+      "sizes": "750x1334",
+      "type": "image/pjpgng"
     }
   ]
 }
