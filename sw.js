@@ -1,4 +1,4 @@
-const cacheName = 'ewerson-cv-v1';
+const cacheName = 'kseven-cv-v1';
 const assets = ['./', './index.html', './style.css', './script.js', './photo.jpeg', './favicon.jpg'];
 
 self.addEventListener('install', e => {
