@@ -1,5 +1,14 @@
-const cacheName = 'kseven-cv-v1';
-const assets = ['./', './index.html', './style.css', './script.js', './photo.jpeg', './favicon.jpg'];
+const cacheName = 'kseven-cv-v1-0';
+const assets = [
+    './', 
+    './index.html', 
+    './style.css', 
+    './script.js', 
+    './photo.jpeg', 
+    './favicon.jpg',
+    './screenshot-wide.jpg', 
+    './screenshot-mobile.jpg'
+];
 
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(cacheName).then(cache => cache.addAll(assets)));
