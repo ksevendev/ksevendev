@@ -3,13 +3,11 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		
 		<title>Ewerson Silva | Desenvolvedor Full Stack & Especialista Industrial</title>
 		<meta name="description" content="Currículo Profissional de Ewerson Silva. Desenvolvedor Full Stack, Especialista em ERP e Automação de Processos Industriais. Fundador da KSeven Inteligência em Software.">
 		<meta name="keywords" content="Ewerson Silva, KSeven, Desenvolvedor Full Stack, Python, ERP, Automação Industrial, Software Intelligence, Currículo">
 		<meta name="author" content="Ewerson Silva">
 		<meta name="robots" content="index, follow">
-
 		<meta property="og:type" content="website">
 		<meta property="og:url" content="http://ewerson.kseven.com.br/">
 		<meta property="og:title" content="Ewerson Silva | Portfolio & CV Profissional">
@@ -18,10 +16,9 @@
 		<meta name="twitter:title" content="Ewerson Silva | Professional CV">
 		<meta name="twitter:description" content="Desenvolvedor Full Stack e Especialista Industrial. Veja meu portfolio completo.">
 		<meta name="twitter:image" content="http://ewerson.kseven.com.br/photo.jpeg">
-
+		<link rel="manifest" href="manifest.json">
 		<link rel="icon" type="image/png" href="favicon.png"> 
 		<link rel="canonical" href="http://ewerson.kseven.com.br/">
-
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 		<link rel="stylesheet" href="style.css">
 	</head>
@@ -380,6 +377,10 @@
 			</main>
 		</div>
 		<script src="script.js"></script>
-
+		<script>
+			if ('serviceWorker' in navigator) {
+				navigator.serviceWorker.register('./sw.js');
+			}
+		</script>
 	</body>
 </html>
