@@ -3,6 +3,10 @@
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=ksevendev&theme=dark)
 
 ---
+## 📄 Currículo / Resume
+Você pode visualizar meu currículo completo e interativo nos links abaixo:
+- 🇧🇷 [Versão em Português](http://ewerson.kseven.com.br/)
+- 🇺🇸 [English Version](http://ewerson.kseven.com.br/) (Utilize o filtro no menu lateral)
 
 ## ⚡ Tecnologias e Ferramentas
 
