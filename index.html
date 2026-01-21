@@ -20,7 +20,7 @@
 		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 		<meta name="apple-mobile-web-app-title" content="Ewerson CV">
 		<link rel="apple-touch-icon" href="assets/img/favicon.png?v=1.1">
-		<link rel="manifest" href="assets/manifest.json">
+		<link rel="manifest" href="assets/manifest.json?v=1.1">
 		<meta name="theme-color" content="#b40e0e">
 		<link rel="icon" type="image/jpg" href="assets/img/favicon.png?v=1.1"> 
 		<link rel="canonical" href="http://ewerson.kseven.com.br/">
@@ -383,9 +383,9 @@
 		</div>
 		<script src="assets/js/script.js?v=1.1"></script>
 		<script>
-			if ('serviceWorker' in navigator) {
-				navigator.serviceWorker.register('./assets/js/sw.js');
-			}
+		if ('serviceWorker' in navigator) {
+			navigator.serviceWorker.register('assets/js/sw.js?v=1.1');
+		}
 		</script>
 	</body>
 </html>
