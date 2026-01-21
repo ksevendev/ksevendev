@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Ewerson Silva | Professional Portfolio CV</title>
+    	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body class="lang-pt">
+
+		<div id="loader">
+			<div class="spinner"></div>
+		</div>
+
+		<div class="floating-container">
+			<div class="floating-menu hidden" id="mainMenu">
+				<div class="menu-label">Idioma / Language</div>
+				<div class="nav-group">
+					<button class="btn-cv active" id="btn-pt" onclick="setLang('pt')">PT</button>
+					<button class="btn-cv" id="btn-en" onclick="setLang('en')">EN</button>
+				</div>
+				<div class="menu-label">Filtro / Filter</div>
+				<div class="nav-group">
+					<button class="btn-cv active" onclick="filterCV('all', this)"><i class="fa-solid fa-layer-group"></i> Tudo</button>
+					<button class="btn-cv" onclick="filterCV('ti', this)"><i class="fa-solid fa-code"></i> Foco em TI</button>
+					<button class="btn-cv" onclick="filterCV('op', this)"><i class="fa-solid fa-industry"></i> Foco Operacional</button>
+				</div>
+				<button class="btn-cv btn-print" onclick="window.print()">
+					<i class="fa-solid fa-file-pdf"></i> Gerar PDF
+				</button>
+			</div>
+			<button class="toggle-menu-btn" onclick="toggleMenu()"><i class="fa-solid fa-gear"></i></button>
+		</div>
+
+		<div class="cv-wrapper">
+			<aside>
+				<div class="profile-img">
+					<img src="photo.jpeg" alt="Ewerson Silva">
+				</div>
+
+				<h3>
+					<i class="fa-solid fa-address-book"></i> 
+					<span lang="pt-br">Contato</span>
+					<span lang="en">Contact</span>
+				</h3>
+				<div class="aside-content">
+					<div>
+						<i class="fa-solid fa-location-dot"></i> 
+						Monsenhor Paulo, MG
+					</div>
+					<div>
+						<i class="fa-brands fa-whatsapp"></i> 
+						<a href="https://wa.me/5535998649399" target="_blank">
+							(35) 9 9864-9399
+						</a>
+					</div>
+					<div>
+						<i class="fa-solid fa-phone"></i> 
+						<a href="tel:+5535998649399">
+							(21) 9 9920-7230
+						</a>
+					</div>
+					<div>
+						<i class="fa-solid fa-envelope"></i> 
+						<a href="mailto:anjsuporte@gmail.com">
+							anjsuporte@gmail.com 
+						</a>
+					</div>
+					<div>
+						<i class="fa-brands fa-linkedin"></i> 
+						<a href="https://linkedin.com/in/kseven" target="_blank">
+							linkedin.com/in/kseven 
+						</a>
+					</div>
+					<div>
+						<i class="fa-brands fa-github"></i> 
+						<a href="https://github.com/ksevendev" target="_blank">
+							github.com/ksevendev 
+						</a>
+					</div>
+				</div>
+
+				<h3>
+					<i class="fa-solid fa-graduation-cap"></i> 
+					<span lang="pt-br">Educação</span>
+					<span lang="en">Education</span>
+				</h3>
+				<div class="aside-content">
+					<b>
+						<span lang="pt-br">Graduação Full Stack</span>
+						<span lang="en">Full Stack Degree</span>
+					</b><br />
+					Estácio (2024 -
+					<span lang="pt-br">Em curso</span>
+					<span lang="en">In Progress</span>)<br /><br />
+					<b>
+						<span lang="pt-br">Ensino Médio Completo</span>
+						<span lang="en">High School Diploma</span>
+					</b><br />
+					CEETEC (2022)
+				</div>
+
+				<h3>
+					<i class="fa-solid fa-language"></i> 
+					<span lang="pt-br">Idiomas</span>
+					<span lang="en">Languages</span>
+				</h3>
+				<div class="aside-content">
+					🇧🇷
+					<span lang="pt-br">Português</span>
+					<span lang="en">Portuguese</span><br />
+					🇺🇸
+					<span lang="pt-br">Inglês (Técnico)</span>
+					<span lang="en">English (Technical)</span>
+				</div>
+			</aside>
+
+			<main>
+				<div class="top-stripe"></div>
+				<header class="reveal">
+					<h1>Ewerson Silva</h1>
+					<span class="tagline" lang="pt-br">Especialista em Tecnologia & Eficiência Operacional</span>
+					<span class="tagline" lang="en">Technology & Operational Efficiency Specialist</span>
+
+					<p class="summary" style="margin-top: 25px; font-size: 1rem; color: var(--slate);" lang="pt-br">
+                		Trajetória sólida de <b>10 anos</b> com foco em resultados. 
+						<br />
+						Perfil híbrido que combina a precisão técnica de um <b>Desenvolvedor Full Stack</b> com a resiliência do setor <b>Industrial e Logístico</b>. 
+						<br />
+						Especialista em arquitetar sistemas complexos e otimizar processos operacionais, garantindo alta produtividade e resolução ágil de problemas críticos sob pressão.
+					</p>
+					<p class="summary" style="margin-top: 25px; font-size: 1rem; color: var(--slate);" lang="en">
+						Solid <b>10-year track record</b> focused on results. 
+						<br />
+						A hybrid profile that combines the technical precision of a <b>Full Stack Developer</b> with the resilience of the <b>Industrial and Logistics</b> sector. 
+						<br />
+						Specialist in architecting complex systems and optimizing operational processes, ensuring high productivity and agile resolution of critical problems under pressure.
+					</p>
+				</header>
+
+				<section class="reveal">
+            		<h2>
+						<i class="fa-solid fa-briefcase"></i> 
+						<span lang="pt-br">Experiência</span>
+						<span lang="en">Experience</span>
+					</h2>
+
+					<div class="job-card" data-type="ti">
+						<div class="job-header">
+							<span>Full Stack Developer / Analyst</span>
+							<span class="date">Jul 2025 – Pres.</span>
+						</div>
+						<div class="company-info">KSeven | Inteligência em Software</div>
+						<ul lang="pt-br">
+							<li><b>Trajetória Consolidada:</b> Atuação estratégica desde a fundação, liderando a transição tecnológica para o modelo formal de registro em 2025.</li>
+							<li>Desenvolvimento de arquiteturas ERP para automação de processos e redução de gargalos operacionais.</li>
+							<li>Integração de APIs e sistemas legados, garantindo a integridade do fluxo de dados.</li>
+						</ul>
+						<ul lang="en">
+							<li><b>Consolidated Track Record:</b> Strategic role since foundation, leading the technological transition to the formal registration model in 2025.</li>
+							<li>Development of ERP architectures for process automation and reduction of operational bottlenecks.</li>
+							<li>Integration of APIs and legacy systems, ensuring data flow integrity.</li>
+						</ul>
+					</div>
+
+					<div class="job-card" data-type="op">
+						<div class="job-header">
+							<span lang="pt-br">Auxiliar de Operações Industriais</span>
+							<span lang="en">Industrial Operations Assistant</span>
+							<span class="date">2025 – 2026</span>
+						</div>
+						<div class="company-info">MGM | Industrial Sector (Glass)</div>
+						<ul lang="pt-br">
+							<li><b>Operação Técnica:</b> Configuração de máquinas de corte de precisão e gestão de carga na linha de pintura.</li>
+							<li><b>Logística & Controle:</b> Lançamento de dados em ERP industrial e movimentação segura de materiais sensíveis.</li>
+						</ul>
+						<ul lang="en">
+							<li><b>Technical Operation:</b> Setup of precision cutting machines and load management on the painting line.</li>
+							<li><b>Logistics & Control:</b> Data entry in industrial ERP and safe handling of sensitive materials.</li>
+						</ul>
+					</div>
+
+					<div class="job-card" data-type="ti op">
+						<div class="job-header">
+							<span lang="pt-br">Prestador de Serviços Multidisciplinares</span>
+							<span lang="en">Multidisciplinary Service Provider</span>
+							<span class="date">Exp. Consolidada</span>
+						</div>
+						<div class="company-info">Trabalhos Autônomos e Projetos Freelance</div>
+						<ul lang="pt-br">
+							<li><b>Tecnologia:</b> Manutenção de hardware, redes estruturadas e suporte para provedores de internet.</li>
+							<li><b>Operacional:</b> Carga e descarga, auxílio em soldagem e manutenção civil (obras).</li>
+							<li><b>Comercial:</b> Atendimento de balcão e gestão de pedidos em lanchonetes.</li>
+						</ul>
+						<ul lang="en">
+							<li><b>Technology:</b> Hardware maintenance, structured cabling, and technical support for internet service providers (ISPs).</li>
+							<li><b>Operations:</b> Loading and unloading, welding assistance, and civil maintenance (construction sites).</li>
+							<li><b>Commercial:</b> Counter service and order management in snack bars/restaurants.</li>
+						</ul>
+					</div>
+				</section>
+
+				<section class="reveal">
+            		<h2>
+						<i class="fa-solid fa-certificate"></i> 
+						<span lang="pt-br">Licenças & Certificações</span>
+						<span lang="en">Licenses & Certifications</span>
+					</h2>
+					<div class="cert-grid">
+						<div class="cert-card" data-type="ti">
+							<b>Programador Front-End</b>
+							Estácio | 2024
+							<small>ID: 668e2c3005e783ee08e5673
+								<a href="https://certificado.estacio.br/668e2c3005e783ee08e5673" target="_blank">
+									<i class="fa-solid fa-arrow-up-right-from-square"></i>
+									VER
+								</a>
+							</small>
+						</div>
+						<div class="cert-card" data-type="ti">
+							<b>Programador Python</b>
+							Estácio | 2024
+							<small>ID: 85ffb6828fe3b09a55d3a4c
+								<a href="https://certificado.estacio.br/85ffb6828fe3b09a55d3a4c" target="_blank">
+									<i class="fa-solid fa-arrow-up-right-from-square"></i> VER
+								</a>
+							</small>
+						</div>
+						<div class="cert-card" data-type="ti">
+							<b>Programador Back-End</b>
+							Estácio | 2024
+							<small>ID: fafa82ebdb2e73831dcda1d
+								<a href="https://certificado.estacio.br/fafa82ebdb2e73831dcda1d" target="_blank">
+									<i class="fa-solid fa-arrow-up-right-from-square"></i>
+									VER
+								</a>
+							</small>
+						</div>
+					</div>
+				</section>
+
+				<section class="reveal">
+					<h2>
+						<i class="fa-solid fa-screwdriver-wrench"></i> 
+						<span lang="pt-br">Competências Chave</span>
+						<span lang="en">Key Skills</span>
+					</h2>
+					<div class="skills-container">
+						<ul class="skill-list" data-type="ti">
+							<li>
+								<i class="fa-solid fa-code"></i>
+								<span lang="pt-br">Full Stack (PHP, React, Python, HTML5, CSS, JS, SQL & etc)</span>
+								<span lang="en">Full Stack (PHP, React, Python, HTML5, CSS, JS, SQL & etc)</span>
+							</li>
+							<li>
+								<i class="fa-solid fa-gears"></i>
+								<span lang="pt-br">Arquitetura ERP & APIs REST</span>
+								<span lang="en">ERP Architecture & REST APIs</span>
+							</li>
+							<li>
+								<i class="fa-solid fa-network-wired"></i>
+								<span lang="pt-br">Infraestrutura de Redes & Hardware</span>
+								<span lang="en">Network Infrastructure & Hardware</span>
+							</li>
+							<li>
+								<i class="fa-solid fa-microchip"></i>
+								<span lang="pt-br">Automação de Fluxos de Dados</span>
+								<span lang="en">Data Workflow Automation</span>
+							</li>
+						</ul>
+
+						<ul class="skill-list" data-type="op">
+							<li>
+								<i class="fa-solid fa-industry"></i>
+								<span lang="pt-br">Gestão de Processos Industriais</span>
+								<span lang="en">Industrial Process Management</span>
+							</li>
+							<li>
+								<i class="fa-solid fa-boxes-stacked"></i>
+								<span lang="pt-br">Logística & Gestão de Estoque (ERP)</span>
+								<span lang="en">Logistics & Inventory (ERP)</span>
+							</li>
+							<li>
+								<i class="fa-solid fa-bullseye"></i>
+								<span lang="pt-br">Foco em Qualidade (Zero Refugo)</span>
+								<span lang="en">Total Quality Focus (Zero Scrap)</span>
+							</li>
+							<li>
+								<i class="fa-solid fa-shield-halved"></i>
+								<span lang="pt-br">Resiliência e Operação Sob Pressão</span>
+								<span lang="en">Resilience & Crisis Management</span>
+							</li>
+						</ul>
+					</div>
+				</section>
+
+				<p style="margin-top: 40px; font-size: 0.7rem; color: #f56767; text-align: center;">
+					<i class="fa-solid fa-clock-rotate-left"></i> 
+					<span lang="pt-br">
+						Última atualização: Janeiro de 2026
+						 - <a href="http://" target="_blank" rel="noopener noreferrer" style="color: var(--primary);text-decoration: none;font-weight: 800;">VERSÃO ONLINE</a>
+					</span>
+					<span lang="en">
+						Last update: January 2026
+						 - <a href="http://" target="_blank" rel="noopener noreferrer">VERSÃO ONLINE</a>
+					</span>
+				</p>
+			</main>
+		</div>
+		<script src="script.js"></script>
+
+	</body>
+</html>
