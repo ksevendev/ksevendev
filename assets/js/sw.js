@@ -5,6 +5,7 @@ const assets = [
     '../../signature.html',
     '../css/style.css',
     './script.js',
+    './signature.js',
     '../img/favicon.png',
     '../img/favicon-192.png',
     '../img/favicon-512.png',
