@@ -2,6 +2,7 @@ const cacheName = 'kseven-cv1-2';
 const assets = [
     '../../index.html',
     '../../offline.html',
+    '../../signature.html',
     '../css/style.css',
     './script.js',
     '../img/favicon.png',
