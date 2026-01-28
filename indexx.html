@@ -3,193 +3,194 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ewerson Silva | K'Seven Developer</title>
+    <title>Ewerson Silva | Tech & Industrial Dashboard</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <style>
         :root {
-            --primary: #00fbff; /* Ciano Seven */
-            --accent: #ff6600;  /* Laranja Spark */
-            --bg: #121212;      /* Grafite Fundo */
-            --card: #1e1e1e;    /* Grafite Cards */
-            --text: #e0e0e0;
-            --sidebar-w: 300px;
+            --neon-blue: #00fbff; /* Seven Blue */
+            --neon-orange: #ff6600; /* Spark Orange */
+            --bg-body: #0a0b0d;
+            --bg-panel: #14161a;
+            --border-color: #2d3139;
+            --text-primary: #ffffff;
+            --text-secondary: #94a3b8;
         }
 
         * { box-sizing: border-box; margin: 0; padding: 0; }
-
         body {
-            background-color: var(--bg);
-            color: var(--text);
-            font-family: 'Inter', -apple-system, sans-serif;
-            overflow-x: hidden;
+            background-color: var(--bg-body);
+            color: var(--text-primary);
+            font-family: 'JetBrains Mono', 'Fira Code', monospace;
+            padding: 20px;
         }
 
-        .cv-wrapper {
-            display: flex;
-            flex-direction: column;
-            width: 100%;
+        /* Layout Grid Principal */
+        .dashboard {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 20px;
             max-width: 1200px;
             margin: 0 auto;
         }
 
-        /* Sidebar Responsiva */
-        aside {
-            background: var(--card);
-            padding: 30px;
-            text-align: center;
-            border-bottom: 4px solid var(--primary);
+        @media (min-width: 900px) {
+            .dashboard { grid-template-columns: 350px 1fr; }
         }
 
-        .profile-hex {
-            width: 160px;
-            height: 160px;
-            clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
-            background: var(--primary);
-            margin: 0 auto 20px;
-            padding: 3px;
-        }
-
-        .profile-hex img {
-            width: 100%;
-            height: 100%;
-            clip-path: inherit;
-            object-fit: cover;
-            background: var(--bg);
-        }
-
-        .aside-content { text-align: left; margin-top: 30px; }
-        .contact-link { color: var(--text); text-decoration: none; display: flex; align-items: center; gap: 10px; margin-bottom: 12px; font-size: 0.9rem; }
-        .contact-link i { color: var(--primary); width: 20px; }
-
-        /* Main Content */
-        main { padding: 30px; flex: 1; }
-
-        h1 { font-size: 2.5rem; letter-spacing: -1px; margin: 0; }
-        .tagline { color: var(--primary); font-weight: 700; margin-bottom: 20px; display: block; }
-        h2 { border-left: 4px solid var(--primary); padding-left: 12px; margin: 40px 0 20px; font-size: 1.2rem; text-transform: uppercase; }
-
-        /* Grid de Projetos */
-        .project-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 20px;
-        }
-
-        .card {
-            background: var(--card);
+        /* Painéis */
+        .panel {
+            background: var(--bg-panel);
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
             padding: 25px;
-            border-radius: 12px;
-            border: 1px solid #333;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .panel::before {
+            content: "";
+            position: absolute;
+            top: 0; left: 0; width: 4px; height: 100%;
+            background: var(--neon-blue);
+        }
+
+        /* Cabeçalho Técnico */
+        .header-status {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.7rem;
+            color: var(--neon-blue);
+            margin-bottom: 15px;
+            text-transform: uppercase;
+        }
+
+        .profile-section { text-align: center; }
+        .avatar {
+            width: 120px;
+            height: 120px;
+            border: 2px solid var(--neon-blue);
+            padding: 5px;
+            margin: 0 auto 15px;
+        }
+        .avatar img { width: 100%; height: 100%; object-fit: cover; filter: grayscale(100%); transition: 0.3s; }
+        .avatar img:hover { filter: grayscale(0%); }
+
+        /* Experiência Industrial x Tech */
+        .timeline-item {
+            margin-bottom: 30px;
+            padding-left: 15px;
+            border-left: 1px dashed var(--border-color);
+        }
+
+        .job-title { color: var(--neon-blue); font-weight: bold; }
+        .job-meta { font-size: 0.8rem; color: var(--text-secondary); margin-bottom: 10px; }
+
+        /* Projeto Glow Cards */
+        .project-card {
+            border: 1px solid var(--border-color);
+            padding: 15px;
+            margin-top: 15px;
+            background: rgba(255, 255, 255, 0.02);
             transition: 0.3s;
         }
+        .project-card:hover { border-color: var(--neon-blue); box-shadow: 0 0 15px rgba(0, 251, 255, 0.1); }
+        .project-card.spark:hover { border-color: var(--neon-orange); box-shadow: 0 0 15px rgba(255, 102, 0, 0.1); }
 
-        .card:hover { border-color: var(--primary); transform: translateY(-3px); }
-        .card h3 { margin-bottom: 10px; font-size: 1.1rem; }
-        .card.seven { border-left: 5px solid var(--primary); }
-        .card.spark { border-left: 5px solid var(--accent); }
-
-        /* Experiência */
-        .job { margin-bottom: 25px; }
-        .job-header { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; }
-        .date { color: var(--primary); font-weight: bold; font-size: 0.9rem; }
-        ul { margin: 10px 0 0 20px; font-size: 0.95rem; color: #b0b0b0; }
-
-        /* Desktop Layout */
-        @media (min-width: 850px) {
-            .cv-wrapper { flex-direction: row; min-height: 100vh; }
-            aside { width: var(--sidebar-w); border-bottom: none; border-right: 1px solid #333; text-align: left; }
-            .profile-hex { margin: 0 0 30px 0; }
+        /* Estilo das Tags */
+        .tech-tag {
+            display: inline-block;
+            font-size: 0.65rem;
+            padding: 2px 6px;
+            border: 1px solid var(--neon-blue);
+            color: var(--neon-blue);
+            margin: 2px;
         }
 
         @media print {
-            .cv-wrapper { flex-direction: row; background: white; color: black; }
-            aside { background: #f0f0f0; border: none; }
-            .card { border: 1px solid #ddd; break-inside: avoid; }
-            .profile-hex { background: #000; }
+            body { background: white; color: black; padding: 0; }
+            .panel { border: 1px solid #000; break-inside: avoid; }
+            .neon-blue, .neon-orange { color: black !important; border-color: black !important; }
         }
     </style>
 </head>
 <body>
 
-<div class="cv-wrapper">
-    <aside>
-        <div class="profile-hex">
-            <img src="assets/img/photo.png" alt="Ewerson Silva">
+<div class="dashboard">
+    <aside class="panel">
+        <div class="header-status">
+            <span>System: Online</span>
+            <span>ID: K7-2026</span>
         </div>
-        
-        <div class="aside-content">
-            <a href="mailto:contato@kseven.com.br" class="contact-link"><i class="fas fa-envelope"></i> contato@kseven.com.br</a>
-            <a href="https://wa.me/5535998649399" class="contact-link"><i class="fab fa-whatsapp"></i> (35) 9 9864-9399</a>
-            <div class="contact-link"><i class="fas fa-map-marker-alt"></i> Monsenhor Paulo, MG</div>
-            <a href="https://github.com/ksevendev" class="contact-link"><i class="fab fa-github"></i> github.com/ksevendev</a>
 
-            <h2 style="margin-top: 40px; font-size: 1rem;">Educação</h2>
-            [span_2](start_span)[span_3](start_span)<p style="font-size: 0.9rem;"><b>Graduação Full Stack</b><br>Estácio (2024 - Cursando)[span_2](end_span)[span_3](end_span)</p>
-
-            <h2 style="font-size: 1rem;">Tecnologias</h2>
-            <div style="display: flex; flex-wrap: wrap; gap: 5px; margin-top: 10px;">
-                <span style="background: #333; padding: 3px 8px; border-radius: 4px; font-size: 0.7rem; border: 1px solid var(--primary);">PHP/CI</span>
-                <span style="background: #333; padding: 3px 8px; border-radius: 4px; font-size: 0.7rem; border: 1px solid var(--primary);">Next.js</span>
-                <span style="background: #333; padding: 3px 8px; border-radius: 4px; font-size: 0.7rem; border: 1px solid var(--primary);">React</span>
-                <span style="background: #333; padding: 3px 8px; border-radius: 4px; font-size: 0.7rem; border: 1px solid var(--primary);">Python</span>
-                <span style="background: #333; padding: 3px 8px; border-radius: 4px; font-size: 0.7rem; border: 1px solid var(--primary);">Supabase</span>
+        <div class="profile-section">
+            <div class="avatar">
+                <img src="assets/img/photo.png" alt="Ewerson Silva">
             </div>
+            <h1 style="font-size: 1.4rem;">EWERSON SILVA</h1>
+            <p style="color: var(--neon-blue); font-size: 0.8rem; margin-bottom: 20px;">FULL STACK & INDUSTRIAL SPECIALIST</p>
+        </div>
+
+        <div style="font-size: 0.85rem;">
+            <p><i class="fas fa-envelope"></i> contato@kseven.com.br</p>
+            <p><i class="fab fa-whatsapp"></i> (35) 9 9864-9399</p>
+            <p><i class="fas fa-link"></i> github.com/ksevendev</p>
+        </div>
+
+        <h3 style="margin-top: 30px; font-size: 0.9rem; border-bottom: 1px solid var(--border-color);">SKILLS_CORE</h3>
+        <div style="margin-top: 10px;">
+            <span class="tech-tag">PHP/CODEIGNITER</span>
+            <span class="tech-tag">NEXT.JS/REACT</span>
+            <span class="tech-tag">PYTHON/SQL</span>
+            <span class="tech-tag">ERP_ARCH</span>
+            <span class="tech-tag">INDUSTRIAL_LOGISTICS</span>
         </div>
     </aside>
 
     <main>
-        <header>
-            <h1>Ewerson Silva</h1>
-            [span_4](start_span)<span class="tagline">Especialista em Tecnologia & Eficiência Operacional[span_4](end_span)</span>
-            <p style="opacity: 0.85; line-height: 1.7;">
-                [span_5](start_span)Trajetória sólida de <b>10 anos</b> com foco em resultados[span_5](end_span). [span_6](start_span)Perfil híbrido que combina precisão técnica <b>Full Stack</b> com resiliência industrial[span_6](end_span). 
-                [span_7](start_span)Especialista em arquitetar sistemas ERP complexos e otimizar processos críticos sob pressão[span_7](end_span).
+        <div class="panel">
+            <div class="header-status"><span>LOG_RESUMO_PROFISSIONAL</span></div>
+            <p style="font-size: 0.9rem; line-height: 1.6; color: var(--text-secondary);">
+                Trajetória sólida de <span style="color: #fff;">10 anos</span>. 
+                Especialista em arquitetar sistemas ERP para automação de processos industriais. 
+                Resiliência comprovada na gestão de dados críticos sob pressão.
             </p>
-        </header>
+        </div>
 
-        <h2><i class="fas fa-rocket"></i> Projetos em Destaque (SaaS)</h2>
-        <div class="project-grid">
-            <div class="card seven">
-                <h3 style="color: var(--primary);"><i class="fas fa-scissors"></i> K7 Barber</h3>
-                [span_8](start_span)<p style="font-size: 0.85rem; opacity: 0.8;">Plataforma SaaS multi-tenant para gestão de barbearias com foco em automação de agendamentos[span_8](end_span).</p>
-            </div>
-            <div class="card spark">
-                <h3 style="color: var(--accent);"><i class="fas fa-signature"></i> KSigner</h3>
-                [span_9](start_span)<p style="font-size: 0.85rem; opacity: 0.8;">Solução moderna de assinaturas digitais e automação de documentos para alta produtividade[span_9](end_span).</p>
+        <div class="panel" style="margin-top: 20px;">
+            <div class="header-status"><span>SAAS_PROJECTS_ACTIVE</span></div>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px;">
+                <div class="project-card">
+                    <h4 style="color: var(--neon-blue);">K7 BARBER</h4>
+                    <p style="font-size: 0.75rem;">SaaS Multi-tenant para barbearias.</p>
+                </div>
+                <div class="project-card spark">
+                    <h4 style="color: var(--neon-orange);">KSIGNER</h4>
+                    <p style="font-size: 0.75rem;">Automação de assinaturas digitais.</p>
+                </div>
             </div>
         </div>
 
-        <h2><i class="fas fa-briefcase"></i> Experiência Recente</h2>
-        
-        <div class="job">
-            <div class="job-header">
-                <h3>Full Stack Developer / Analyst</h3>
-                [span_10](start_span)<span class="date">Jul 2025 - Pres.[span_10](end_span)</span>
+        <div class="panel" style="margin-top: 20px;">
+            <div class="header-status"><span>EXP_LOG_HISTORY</span></div>
+            
+            <div class="timeline-item">
+                <div class="job-title">KSEVEN | INTELIGÊNCIA EM SOFTWARE</div>
+                <div class="job-meta">DEV FULL STACK / ANALISTA | 2025 - PRESENTE</div>
+                <ul style="font-size: 0.8rem; color: var(--text-secondary);">
+                    <li>Liderança em transição tecnológica ERP.</li>
+                    <li>Desenvolvimento de automações operacionais.</li>
+                </ul>
             </div>
-            <p><b>KSeven | [span_11](start_span)Inteligência em Software[span_11](end_span)</b></p>
-            <ul>
-                [span_12](start_span)<li>Liderança na transição tecnológica e automação de processos ERP[span_12](end_span).</li>
-                [span_13](start_span)<li>Desenvolvimento de arquiteturas para redução de gargalos operacionais[span_13](end_span).</li>
-                [span_14](start_span)<li>Integração de APIs e sistemas legados garantindo a integridade dos dados[span_14](end_span).</li>
-            </ul>
-        </div>
 
-        <div class="job">
-            <div class="job-header">
-                <h3>Auxiliar de Operações Industriais</h3>
-                [span_15](start_span)<span class="date">2025 - 2026[span_15](end_span)</span>
+            <div class="timeline-item">
+                <div class="job-title">MGM PRODUTOS SIDERÚRGICOS</div>
+                <div class="job-meta">AUXILIAR INDUSTRIAL / ERP SYNC | 2025 - 2026</div>
+                <ul style="font-size: 0.8rem; color: var(--text-secondary);">
+                    <li>Sincronização entre chão de fábrica e inventário digital.</li>
+                    <li>Configuração de máquinas e controle de qualidade industrial.</li>
+                </ul>
             </div>
-            <p><b>MGM | [span_16](start_span)Setor Industrial (Vidros)[span_16](end_span)</b></p>
-            <ul>
-                [span_17](start_span)<li>Configuração de máquinas de corte e gestão de carga na linha de pintura[span_17](end_span).</li>
-                [span_18](start_span)<li>Lançamento crítico de dados em ERP industrial e controle de estoque[span_18](end_span).</li>
-                [span_19](start_span)<li>Movimentação segura de materiais sensíveis e foco em qualidade[span_19](end_span).</li>
-            </ul>
         </div>
-
-        <footer style="margin-top: 50px; padding-top: 20px; border-top: 1px solid #333; text-align: center; font-size: 0.7rem; opacity: 0.5;">
-            Última atualização: 28 de Janeiro de 2026
-        </footer>
     </main>
 </div>
 
