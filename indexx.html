@@ -3,194 +3,188 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ewerson Silva | KSeven Intelligence</title>
+    <title>Ewerson Silva | K'Seven Developer</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <style>
         :root {
-            --primary: #00e5ff; /* Ciano KSeven */
-            --bg-dark: #1a1a1a; /* Grafite */
-            --card-bg: #262626;
-            --text-main: #e0e0e0;
-            --text-dim: #a0a0a0;
-            --accent: #ff6d00; /* Laranja Spark */
+            --primary: #00fbff; /* Ciano/Turquesa Seven */
+            --accent: #ff6600;  /* Laranja Spark */
+            --dark: #121212;    /* Grafite Fundo */
+            --card: #1e1e1e;    /* Grafite Cards */
+            --text: #e0e0e0;
         }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
 
         body {
-            background-color: var(--bg-dark);
-            color: var(--text-main);
-            font-family: 'Segoe UI', Roboto, sans-serif;
-            margin: 0;
-            display: flex;
-            justify-content: center;
+            background-color: var(--dark);
+            color: var(--text);
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
         }
 
-        .cv-container {
-            width: 1000px;
-            background: var(--bg-dark);
-            display: grid;
-            grid-template-columns: 320px 1fr;
-            gap: 20px;
-            padding: 40px;
-        }
-
-        /* Sidebar */
-        aside {
-            border-right: 1px solid #333;
-            padding-right: 30px;
-        }
-
-        .profile-hex {
-            width: 180px;
-            height: 180px;
-            clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
-            background: var(--primary);
-            padding: 4px;
-            margin-bottom: 20px;
-        }
-
-        .profile-hex img {
+        .container {
             width: 100%;
-            height: 100%;
-            clip-path: inherit;
+            max-width: 1100px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column; /* Mobile first */
+        }
+
+        /* Layout Responsivo com Grid */
+        @media (min-width: 850px) {
+            .container {
+                flex-direction: row;
+                gap: 20px;
+                padding: 40px 20px;
+            }
+            aside { width: 350px; position: sticky; top: 40px; height: fit-content; }
+            main { flex: 1; }
+        }
+
+        /* Sidebar Estilizada */
+        aside {
+            background: var(--card);
+            padding: 30px;
+            border-radius: 0 0 20px 20px;
+            border-bottom: 4px solid var(--primary);
+        }
+
+        @media (min-width: 850px) {
+            aside { border-radius: 20px; border-bottom: none; border-left: 4px solid var(--primary); }
+        }
+
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 3px solid var(--primary);
+            margin: 0 auto 20px;
+            display: block;
             object-fit: cover;
         }
 
-        .contact-item {
-            margin-bottom: 15px;
-            font-size: 0.9rem;
-        }
-
-        .contact-item i { color: var(--primary); width: 25px; }
-
-        /* Main Content */
-        h1 { font-size: 3rem; margin: 0; text-transform: uppercase; letter-spacing: -1px; }
-        .tagline { color: var(--primary); font-weight: bold; font-size: 1.2rem; }
-
-        .section-title {
-            border-bottom: 2px solid var(--primary);
-            padding-bottom: 5px;
-            margin-top: 40px;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-
-        /* Project Cards */
-        .project-grid {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 15px;
-            margin-top: 20px;
-        }
-
+        /* Cards de Experiência e Projetos */
         .card {
-            background: var(--card-bg);
+            background: var(--card);
             padding: 20px;
             border-radius: 12px;
-            border-left: 4px solid var(--primary);
-            transition: 0.3s;
+            margin-bottom: 20px;
+            border: 1px solid #333;
+            transition: transform 0.3s ease;
         }
 
-        .card.spark { border-left-color: var(--accent); }
+        .card:hover { transform: translateY(-5px); border-color: var(--primary); }
 
-        .card h4 { margin: 0 0 10px 0; color: var(--primary); }
+        .project-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+        }
 
-        /* Badges */
         .badge {
+            display: inline-block;
             background: #333;
+            color: var(--primary);
             padding: 4px 10px;
             border-radius: 4px;
             font-size: 0.75rem;
-            margin-right: 5px;
+            margin: 5px 5px 0 0;
+            border: 1px solid var(--primary);
         }
 
+        /* Ajustes de Tipografia */
+        h1 { font-size: 2.2rem; color: #fff; margin-bottom: 5px; }
+        .tagline { color: var(--primary); font-weight: 600; display: block; margin-bottom: 20px; }
+        h2 { border-left: 4px solid var(--primary); padding-left: 10px; margin: 30px 0 20px; text-transform: uppercase; font-size: 1.2rem; }
+
+        /* Utilitários */
+        .contact-link { color: var(--text); text-decoration: none; display: flex; align-items: center; gap: 10px; margin-bottom: 10px; font-size: 0.9rem; }
+        .contact-link i { color: var(--primary); }
+
         @media print {
-            body { background: white; color: black; }
-            .cv-container { width: 100%; padding: 0; }
-            .card { border: 1px solid #ddd; background: #fff; }
             .no-print { display: none; }
+            body { background: white; color: black; }
+            .card { border: 1px solid #ccc; break-inside: avoid; }
         }
     </style>
 </head>
 <body>
 
-<div class="cv-container">
+<div class="container">
     <aside>
-        <div class="profile-hex">
-            <img src="assets/img/photo.png" alt="Ewerson Silva">
+        <img src="assets/img/photo.png" alt="Ewerson Silva" class="profile-img">
+        <h1 style="text-align:center; font-size: 1.5rem;">Ewerson Silva</h1>
+        <span class="tagline" style="text-align:center;">K'Seven Developer</span>
+
+        <div style="margin-top: 30px;">
+            <a href="mailto:contato@kseven.com.br" class="contact-link"><i class="fas fa-envelope"></i> contato@kseven.com.br</a>
+            <a href="https://wa.me/5535998649399" class="contact-link"><i class="fab fa-whatsapp"></i> (35) 9 9864-9399</a>
+            <div class="contact-link"><i class="fas fa-map-marker-alt"></i> Monsenhor Paulo, MG</div>
+            <a href="https://github.com/ksevendev" class="contact-link"><i class="fab fa-github"></i> github.com/ksevendev</a>
         </div>
-        
-        <div class="contact-item"><i class="fa-solid fa-envelope"></i> contato@kseven.com.br</div>
-        <div class="contact-item"><i class="fa-brands fa-whatsapp"></i> (35) 9 9864-9399</div>
-        <div class="contact-item"><i class="fa-solid fa-location-dot"></i> Monsenhor Paulo, MG</div>
-        <div class="contact-item"><i class="fa-brands fa-github"></i> github.com/ksevendev</div>
 
-        <h3 class="section-title"><i class="fa-solid fa-graduation-cap"></i> Educação</h3>
-        <p><b>Graduação Full Stack</b><br>Estácio (2024 - Cursando)</p>
+        <h2>Educação</h2>
+        [span_3](start_span)[span_4](start_span)<p><b>Graduação Full Stack</b><br>Estácio (2024 - Cursando)[span_3](end_span)[span_4](end_span)</p>
 
-        <h3 class="section-title"><i class="fa-solid fa-brain"></i> Competências</h3>
-        <div style="display: flex; flex-wrap: wrap; gap: 5px;">
+        <h2>Skills</h2>
+        <div class="skills">
             <span class="badge">PHP / CodeIgniter</span>
-            <span class="badge">Next.js</span>
-            <span class="badge">React</span>
+            <span class="badge">React / Next.js</span>
             <span class="badge">Python</span>
             <span class="badge">Supabase</span>
-            <span class="badge">ERP Architecture</span>
+            [span_5](start_span)[span_6](start_span)[span_7](start_span)<span class="badge">ERP Architecture</span>[span_5](end_span)[span_6](end_span)[span_7](end_span)
         </div>
     </aside>
 
-    <main>
+    <main style="padding: 20px;">
         <header>
-            <h1>Ewerson Silva</h1>
-            <div class="tagline">Especialista em Tecnologia & Eficiência Operacional</div>
-            <p style="color: var(--text-dim); line-height: 1.6;">
-                [span_3](start_span)Trajetória de <b>10 anos</b> focada em arquitetar sistemas ERP complexos e otimizar fluxos industriais[span_3](end_span). 
-                [span_4](start_span)Perfil híbrido que une precisão Full Stack com a resiliência do setor logístico[span_4](end_span).
+            <p style="font-size: 1.1rem; opacity: 0.9;">
+                [span_8](start_span)[span_9](start_span)Especialista em Tecnologia & Eficiência Operacional com trajetória sólida de <b>10 anos</b>[span_8](end_span)[span_9](end_span). 
+                [span_10](start_span)[span_11](start_span)[span_12](start_span)Especialista em arquitetar sistemas ERP complexos e automação de processos industriais[span_10](end_span)[span_11](end_span)[span_12](end_span).
             </p>
         </header>
 
-        <h3 class="section-title"><i class="fa-solid fa-rocket"></i> Projetos em Destaque (SaaS)</h3>
+        <h2><i class="fas fa-rocket"></i> Projetos SaaS (K'Seven)</h2>
         <div class="project-grid">
-            <div class="card">
-                <h4><i class="fa-solid fa-scissors"></i> K7 Barber</h4>
-                [span_5](start_span)<p style="font-size: 0.85rem;">Plataforma SaaS Multi-tenant para gestão de barbearias com foco em automação de agendamentos[span_5](end_span).</p>
+            <div class="card" style="border-left: 4px solid var(--primary);">
+                <h3 style="color: var(--primary);">K7 Barber</h3>
+                [span_13](start_span)<p style="font-size: 0.85rem;">Plataforma SaaS multi-tenant para gestão de barbearias com foco em agendamentos[span_13](end_span).</p>
             </div>
-            <div class="card spark">
-                <h4><i class="fa-solid fa-signature"></i> KSigner</h4>
-                [span_6](start_span)<p style="font-size: 0.85rem;">Solução moderna de assinaturas digitais e automação de documentos para alta produtividade[span_6](end_span).</p>
+            <div class="card" style="border-left: 4px solid var(--accent);">
+                <h3 style="color: var(--accent);">KSigner</h3>
+                [span_14](start_span)<p style="font-size: 0.85rem;">Solução de assinaturas digitais e automação de documentos modernos[span_14](end_span).</p>
             </div>
         </div>
 
-        <h3 class="section-title"><i class="fa-solid fa-briefcase"></i> Experiência Recente</h3>
-        
-        <div class="job" style="margin-top: 20px;">
-            <div style="display: flex; justify-content: space-between;">
-                <b>Full Stack Developer / Analyst</b>
+        <h2><i class="fas fa-briefcase"></i> Experiência</h2>
+        <div class="card">
+            <div style="display: flex; justify-content: space-between; align-items: baseline;">
+                <h3>Full Stack Developer</h3>
                 <span style="color: var(--primary);">2025 - Pres.</span>
             </div>
-            <div style="color: var(--text-dim); font-size: 0.9rem;">KSeven | Inteligência em Software</div>
-            <ul style="font-size: 0.9rem; color: var(--text-dim);">
-                [span_7](start_span)<li>Liderança na transição tecnológica e automação de processos ERP[span_7](end_span).</li>
-                [span_8](start_span)<li>Integração de APIs e sistemas legados para eficiência operacional[span_8](end_span).</li>
+            <p><b>KSeven | [span_15](start_span)Inteligência em Software</b>[span_15](end_span)</p>
+            <ul style="margin: 10px 0 0 20px; font-size: 0.9rem;">
+                [span_16](start_span)<li>Desenvolvimento de arquiteturas ERP para redução de gargalos operacionais[span_16](end_span).</li>
+                [span_17](start_span)[span_18](start_span)<li>Integração de APIs REST e sistemas legados[span_17](end_span)[span_18](end_span).</li>
             </ul>
         </div>
 
-        <div class="job" style="margin-top: 20px;">
-            <div style="display: flex; justify-content: space-between;">
-                <b>Auxiliar de Operações Industriais (ERP Sync)</b>
+        <div class="card">
+            <div style="display: flex; justify-content: space-between; align-items: baseline;">
+                <h3>Auxiliar Industrial (ERP Sync)</h3>
                 <span style="color: var(--primary);">2025 - 2026</span>
             </div>
-            <div style="color: var(--text-dim); font-size: 0.9rem;">MGM Produtos Siderúrgicos</div>
-            <ul style="font-size: 0.9rem; color: var(--text-dim);">
-                [span_9](start_span)<li>Sincronização crítica entre chão de fábrica e inventário digital via ERP[span_9](end_span).</li>
-                [span_10](start_span)<li>Operação de precisão e controle de qualidade industrial[span_10](end_span).</li>
+            [span_19](start_span)<p><b>MGM Produtos Siderúrgicos S/A</b>[span_19](end_span)</p>
+            <ul style="margin: 10px 0 0 20px; font-size: 0.9rem;">
+                [span_20](start_span)<li>Sincronização crítica de estoque e insumos no ERP industrial[span_20](end_span).</li>
+                [span_21](start_span)<li>Operação de precisão e controle de qualidade industrial[span_21](end_span).</li>
             </ul>
         </div>
 
-        <footer style="margin-top: 50px; text-align: center; border-top: 1px solid #333; padding-top: 20px;">
-            <img src="assets/img/logo-k7.png" alt="K7 Seven" style="height: 30px; opacity: 0.7;">
-            <p style="font-size: 0.7rem; color: var(--text-dim);">Última atualização: 28 de Janeiro de 2026</p>
-        </footer>
+        <div style="text-align: center; margin-top: 40px; opacity: 0.5; font-size: 0.8rem;">
+            [span_22](start_span)Última atualização: Janeiro de 2026[span_22](end_span)
+        </div>
     </main>
 </div>
 
