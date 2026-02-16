@@ -37,7 +37,7 @@ Você pode visualizar meu currículo completo e interativo nos links abaixo:
 
 ## 🏆 Conquistas do GitHub
 
-<a href="https://github.com/ksevendev?achievement=pair-extraordinaire&tab=achievements"><img src="https://github.githubassets.com/assets/pair-extraordinaire-default-579438a20e01.png" width="64" /></a>
-<a href="https://github.com/k7brasil?achievement=pull-shark&tab=achievements"><img src="https://github.githubassets.com/images/modules/profile/achievements/pull-shark-default.png" width="64" /></a>
-<a href="https://github.com/k7brasil?achievement=yolo&tab=achievements"><img src="https://github.githubassets.com/images/modules/profile/achievements/yolo-default.png" width="64" /></a>
-<a href="https://github.com/k7brasil?achievement=quickdraw&tab=achievements"><img src="https://github.githubassets.com/images/modules/profile/achievements/quickdraw-default--medium-dark.png" width="64" /></a>
+<a href="https://github.com/ksevendev?tab=achievements&achievement=pair-extraordinaire"><img src="https://github.githubassets.com/assets/pair-extraordinaire-default-579438a20e01.png" width="64" /></a>
+<a href="https://github.com/ksevendev?tab=achievements&achievement=pull-shark"><img src="https://github.githubassets.com/images/modules/profile/achievements/pull-shark-default.png" width="64" /></a>
+<a href="https://github.com/ksevendev?tab=achievements&achievement=yolo"><img src="https://github.githubassets.com/images/modules/profile/achievements/yolo-default.png" width="64" /></a>
+<a href="https://github.com/ksevendev?tab=achievements&achievement=quickdraw"><img src="https://github.githubassets.com/images/modules/profile/achievements/quickdraw-default--medium-dark.png" width="64" /></a>
