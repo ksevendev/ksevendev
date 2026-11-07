@@ -50,7 +50,7 @@
 <br />
 
 ## 🏆 Conquistas do GitHub
-<p align="center">
+<p align="center_">
   <a href="https://github.com/ksevendev?tab=achievements&achievement=pair-extraordinaire"><img src="https://github.githubassets.com/assets/pair-extraordinaire-default-579438a20e01.png" width="64" /></a>
   <a href="https://github.com/ksevendev?tab=achievements&achievement=pull-shark"><img src="https://github.githubassets.com/images/modules/profile/achievements/pull-shark-default.png" width="64" /></a>
   <a href="https://github.com/ksevendev?tab=achievements&achievement=yolo"><img src="https://github.githubassets.com/images/modules/profile/achievements/yolo-default.png" width="64" /></a>
